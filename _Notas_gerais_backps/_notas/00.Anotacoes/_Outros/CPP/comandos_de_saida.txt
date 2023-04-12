@@ -1,0 +1,5 @@
+
+compilar_no_term:
+  compilar: g++ arquivo.ext
+  rodar: ./a.out
+

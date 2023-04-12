@@ -1,0 +1,6 @@
+
+Configuracoes:
+  LuaComVimScript: [
+    "https://github.com/cotste/neovim/blob/master/init.lua",
+
+  ]

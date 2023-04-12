@@ -1,0 +1,39 @@
+
+configuracao_unica:
+  no_bashrc: adicionar comando : "```stty -ixon``` // para aceitar atalhos e nao travar terminal.",
+
+arquivo_para_configuracoes_do_vim: "~/.vimrc",
+
+teclas_usar_dentro_de_tags:
+C == Control
+CR == executa da control no final apra confirmar
+c == Shift
+M == Alt
+S == ???
+Esc == Esc
+Up
+Down
+Left
+Right
+
+====
+
+significados comandos:
+  Iniciar_Mapeamento_de_Comandos: "iniciar com a palavra chave 'map'",
+  Tera_combinacao_de_comandos: "<> // terao que ser colocados entre <>",
+  Control: "C",
+  Separacao_de_Comandos_Combinados: "-",
+  Salvar: "s",
+  Gravar: ":write",
+  Enter: "<CR>",
+
+mapeando:
+dentro_do_arquivo_de_config_do_vim: "~/.vimrc",
+ sintaxe_mapeamento: "map <NOVA_INSTRUCAO> :INSTRUCAO_ALVO<CR ENTER PARA CONFIRMAR>  // com Crt-S e confirme dando enter", 
+ 
+
+ NomesInstrucoes:
+ IsoladorDeInstrucoes: "<>",
+ InicioInstrucaoDeFuncao: ": 2Pontos",
+  Enter: "CR",
+  Control: "C",

@@ -1,0 +1,362 @@
+PGM ARRUMAR ESTRUTURAR
+
+é == ou is na ling., 
+nao é !variavel ou not na ling.,
+
+deletar arquivo posso config. no zsh
+
+TODO
+-- criar funcao carregar varsAmbiente loadEnv()
+
+fzer entidade de formulas
+
+Formula..taxa de juros ..qual a porcentagem
+https://fb.watch/jed4x_oCYO/
+
+Go:
+uso: 
+metodo: tipo atraves de paramVariavel , com o psram sozinho sou inteiro todo o objeto do tipo , desencadeando uso cada campo, mesmo nao retornando todos os campos ou somente um ...prometo queo metodo vai devolver este tipo, pode nao ser inteiro mas senfo um campo é o tipo.
+
+recupere erro panico com recovery : https://fb.watch/jfnwPZC-rC/
+
+Linux:
+Ir_Para_HomeDoUser:  ~/  tio barra
+
+artefatosDeValor: tudo é objeto.
+
+Variavel == é um apelido para o valor[ qualquerDado/funcao/objeto/Estrutura ] ... se tem objetos muito grandes e desencadeamento e nomes coloque numa var que vc tera um apelido menor.
+
+TODO:
+TUDO QUE FIZER SE PODE FAZER NO MODO LINGUAGEM JS BASIC UNIVERSAL...
+Cria cada um separado e poem junto no front quando quiser comparar novo com universal.
+
+#importante TUDO É OBJETO, pacotes/modulos/libs tudo é objeto modelado em classe ... instancie/apelide e use os membros destes objetos.
+
+Ferramentas_Pgm
+Extrair_Texto: usa Regex
+FazerBlocoCodigoDurmirDemorar: ???
+
+Go : FerramentasPraFuncoes:
+AntesDeQualquerRetorno: clausula defer antes de qualquer retorno de sucesso ou falha execute esta funcao....faça isto.
+Aplicabilidade : fazer algo generico tanto pata erro ou acerto , vai rodar antes de algum retorno de execucoes futuras.
+Uso: insira antes das execucoes alvo para ele rodar antes.
+
+Goroutines clausula go , pode pular esta execucao de funcao se ela demorar nao acabar faca as outras se tiver...ao contrario do await do js que espera a execucao demarcada.
+
+CORRECOES
+- Colocar como criar novo e atualizar cada tipo.
+
+TiposPrimitivos_AceitarValor [string, number, bool]
+tipo significado: nome do espaco que ocupara na memoria ex: string , tipoNovoPesonalizado todos tem um limite de espaco que vai caber informações deste  tipo...entao seus valores tem que caber neste que voce desmarcou.
+
+Neles temos RepresentacaoQueValeComoValor ex: true false psra boleano, DateTime para hora,
+
+APP
+Dominio : Entidades: Autores, Evento o que sera Consumido., 
+
+CasoDeUso : Acoes Entre Autores e Evento
+
+Relatorios: Controle entre Dominio e CasoDeUso
+......
+
+#TODO NovoPgm adicionar: 
+-- CompliaPara : ex Golang e Python compila para Binario Executavel
+Interpretada ou Compilada. #TODO_ESTUDAR
+Sdk : tem?
+- Fazer Linguagem só para Universal separado..nao misturar com outras.
+- 
+- Em tipos adicionar :: 
+-- Conceito: Se a estrutura de tipos for class Statica ...em cada os membros serao acessados desencadeando chamadas.
+-- Se a estrutura for struct ...os membros de cada tipo sera acessado chamandoFuncoes atreladas ao tipo.
+
+-- CriarNovoTipoPersonalizado: este é o model , tem linguagem que usa class ou struct. 
+Do mesmo jeito/estrutura que a linguagem cria seus tipos...podemos criar nossos NovosTiposPersonalizados.
+
+DataHora é um tipo
+VER SE É POSSIVEL :: tiposDeDado: funcao, struct, class, e como ver o que eles representam,
+
+e em cada tipo como acessar seus membrosProto tanto dos primitivos e como criar para os tiposModeladosPersonalizados. .obs: struct  , class vc ta criando um tipoNovoPersonalizado. que vai poder ter seus membros ao criarmos metodosAtrelados e tambem vai herdar membros nos campos wue herdam membros dos primitivos.
+....
+BonsNomes:
+  Definir: set,Criar: create, add, insert, new
+....
+campo de modelador pode ser qualqier tipo ex: ate funcao que é um tipo
+....
+Nao chumbe magicamente  nada nenhum primitivo dentro do codigo ...use sempre VARIAVEL_CONSTANTE
+....
+atribuicao: intanciacao, é o recuperar, serve tanto pra armazenar ou recuperar o que foi armazenado ou dado retorno.
+....
+clausula return : tem 2 funcionalidades
+retornar o que vem apos ela,
+ou ela sozinha mata, volta dali, cancela a execusao do seu bloco.
+
+....
+TiposPossiveis: 
+  Primitivos, NaoPrimitivos, EstruturaDeDados
+  link : https://www.facebook.com/groups/front.designer/permalink/2873814646087185/?mibextid=Nif5oz
+....
+
+multiplasFuncionalidades :
+ex: multiplasValidacoes :: Validators<NomeAbstrato>
+package validator | transform | utils  a funcaoAgrupadora do index vai usar as uses que sabem fazer a algo com o mesmo parametro, ideal pra depois ser utilizada  dentro do prepare() de cada entidade
+
+
+Linguagem - Go : 
+Nao tem herança
+- Tem Composicao , fazemos quando - inserimos um type como campo de outro type.
+
+O Ternario é diferente.
+....
+Assincronismo Funcionalidades que podem demorar para carregar e dar resposta :
+  clausula: defer , significado: adiar, semelhanca: parecido com await em usos a funcao chamada que tiver esta clausula na frente vai ser adiada.. e executa depois do da ultima que tiver um return.
+....
+Para cada objetoModelado faca um crud se  quiser que ele tenha um cicloDeVida
+....
+Algoritmo == um monte de tarefas em ordem logica para terminar um desafio.
+
+
+
+.....
+
+GENERICS TIPAGEM DINAMICA
+Generics:
+Conceito: Sao parametros para Tipos que os tornam dinamicos onde declaramos com uma letra ex: T , e no uso argumentamos seu real calor de tipo.
+
+Aplicabilidade: Fazer Tipagem dinâmica na declaracao e pré definir que sera de um ou outro tipo ou somente dizer o tipoReal quando for usar.
+
+Sintaxe: em go pra duzer que pode ser qualquer tipo podemos usar :: any ou interface{},
+
+falarQueVaiSer2Tipos : semelhante strut só que com clausula interface no lugar da struct  e dentro só tipos que quer que seja aceitos
+exemplo:
+type Number interface{
+  int32 | int64
+}
+
+type Foo interface {
+  BarModel1 | BarModel2
+}
+// Se onde precisar deste tipo tambem precisar de metodos prototipos do tipo a ser usado posdo criar um tipo interface com contrato tendo um metodobde um tipo que tenha prototipo desejado ex: uma interface onde seu campo seja um metodo que do tipo syring assim posdo usar onde for usado ete tipo com seus prototipos.
+
+// onde precisar usarTipar insiro variavelLetraGigante do tipo da interface.ex: (T Number)
+
+...
+
+Sinal_Atribuicao == narracao:  jogo dentro de..., vai ser...
+
+PassarValor: 
+  ParaVariavel: sinal de atribuicao =
+  ParaFuncao: passe valor dentro de parenteses (valor)
+  
+CriarMetodoPrototipoAtreladoAModeladorGolang:
+na assinatura do metodo antes do nome de forma usolafa dentro de ( variavel *Modelo_Struct_QueSeraAtrelado ) , passamos  variavel *Modelo_Struct_QueSeraAtrelado , esta variavel sozinha sera a  incorporacao de todo o modelador em forma de objeto  ou campo isolado dele desencadeando com ponto os seus campos ex:  variavel.campo
+
+Macete: só criar uma funcaoNormal e antes do nome isoladamente um parametro do tipoPonteiro da structDesejada...isto que liga a funcao ao struct.
+
+Heranca: assim esta funcao estara no prototipo de todos objetos criados por esta struct..e podera ser usada por eles de forma desencadeada.
+.....
+significados:
+Dependencia: de arquivo pra arquivo tudo que é importado, de funcao tudo que importamos por parametro, modulos/codigos/funcoes externas.
+
+Instanciar: resgatar, recuperar, o que uma funcao, variavel, objeto, model, classe, struc der de retorno posso recuperar instanciando e armazenando em uma variavel.
+
+nulo == nil , nulo, nao preenchido, variavel  vazia , nada, variavel existe mas esta sem nada sem valor, esta ocupando um espaco vazio na memoria, uma reserva esta reservado mas nao ta usando, o client nao prencheu
+....
+Arquitetura_Preferida: Hexagonal ::Domain/Aplication/Frameworks.
+
+VariavelAmbienteEmApp: 
+comceito: para ter uma unicaFonteDaVerdade de um valor, sao informacoes Secretas secret
+
+aplicabilidade:para valor sensiveis inconfidenciais configuracoes buscando de uma constante protegida emarquivo oculto .env no qual nao tornamos publico em repositorios.
+
+Criar um statico objeto statico unico no golang crie uma constante com const ???
+
+FuncaoProcedimento:    só executa ...nao tem return, nao retorna nada ou vazio ..
+.........
+
+funcaoHandler : 
+Conceito: em go posso retornar mais que um valor da funcao, 
+
+DeclaracaoDeRetornos: entao digo que vai retornar o acerto, erro.
+
+Verificacao:
+só de ter uma condicional ja me obriga a prometer retornar um erro tambem.
+
+MinhaRegea: posso fazer uma condicao para mim considerar o que seja erro senao me atender.
+
+NoEscopoConsequenciaDaVerificaca : DoisRetornos ::
+Acerto:  acerto porque acertou o erro retorno valorZero do tipo da regraVerificada, 
+Erro: e comoErro o feedback mensagem explicando porque ou onde errou.
+
+NoEscopoAlternativa: 
+Dois Retornos 
+Acerto: retorno o resultado da regra
+Erro: anulo o erro com ulo nil.
+
+
+
+
+e retorno as 2 coisas que prometi o acerto, e para o erto invento que vou retornar cazio nulo nil ex: return result, nil
+quem for chamar/usar esta funcao extrai e usa os 2 artefatos acerto, erro.
+
+........
+
+Unico_Pacote_Que_Pode_Ser_Executado: "package main"
+
+Ver o tipo do dado em golang ???
+Tipo , Conceito: é o tamanho em bytes que sera reservado pra guardar seu dado.
+
++Convencoes:
+nomeArquivoPrincipqlApp: main
+nomeArquivoPrincipalPastas: index
+nomeModuloPacoteNameSpacePrincipalApp: main
+
+
+parametroVariavel == recipiente que subistitui valores ..o utilizdor substitui pelo o que ele quiser  passar.
+
+variavel == tudo que vareia, substituídor de valores
+
+array == colecao, lista, slice, vetor
+.....
+
+TDD: 
+Significado: Testar Antes de Criar
+testesUnitarios : testar unidades, campos, funcoes
+TestesIntegracao:
+
+Conceito: Ver Componentes, Testar Cliques em Boroes funcionamentos funcoes.
+...
+BDD: Behavery Development : 
+Significado: Testar Depois de desenvolvido, para funcionalidades que ja temos.,
+
+Origem: Antigamente era feito na folha de papel por TestersDeQualidade conferindo se no frontDoSite tinha tal csmpo, tal bo5ao, ao clicar aconteia tal funcionalidade. 
+
+Missao: TestesComportamento:,
+Aplicabilidade: FrontEnd,
+....
+AutoRestartTest: ...
+ComandoRodar_TodosTests: .go test
+Comando_Rodar_Test_Isolado: go test/caminho/arquivo
+
+....
+Tecnica: GivenWhereThen
+DadoQue: given, dado um input/entrada
+Quando: where, QuandoFazerUmaAcao
+EsperoEntao : then, espero ter este resul5ado
+....
+
+DesvioCondional: se queremos fazer algo dependendo de uma condição usamos a FuncaoCondicional ir 'Se'  que recebe nossas expressões avaliadas por operações lógicas, a Função if() resulta em 2 blocosDeAcoes [ consequência, alternativa]
+Consequencia: se a expresaoCondicional resultar verdadeira ela faz as instruções da consequencia.
+Alternativa: se a expresaoCondicional resultar em falso ela executa as expressões do bloco alternativo que pode ser um blocoObjeto else "Senao"  , ou ifElse para mais condições, ou um retorno da funcao
+
+- #TODO :: 
+
+- importar pacotes externos: 
+- Importar: via linha de comando ```go get endereco/Do/pacoteObjeto``` 
+- 
+UtilizarImportado: o ultimoObjetoDoEndereco é o objeto que vamos  desencadear seu metodo().
+- falta em operadores no golang : &,  ||
+- Descobrir como fazer require de arquivo Json em golang para entrar com dados de um Jason no codigo
+--  Fazer relacionamentos de estruturasModeladoras.
+
+------
+Algoritmo_FuncaoHandler_ManipuladoraDeServico : 
+...
+AlgoritmoFuncaoPrincipalUsaO CaseService: 
+Conceito: é a que executa, aproveita retornos e decide como mostrar os resultados da CaseserVice() .
+Passos:
+1- executo a funcionalidadeCaseServiceQueEstaAoMeuDispor dela tiro o erro e o sucesso
+2- mostro do meu jeito a consequência do erro se acontecer,
+3- ou retorno o acerto para mostrarem como quiser na view.
+-----
+Faltam estruturar em go:
+
+Operacoes: preciso de entrada de dado, obtenho por param ou criando-a, tendo a entrada ::Pensamento: o que posso fazer com o tipo deste dado pra gerar meu resultado  , se for texto operações de texto obs: números em texto podem sofrer operações numericas, numérico operações numéricas(aritméticas, comparações maior, menor), é assim vai pra cada tipo.
+
+FAZER fixo os conceitos universais QUE FALTAM 
+
+ferramentas_funcionais:
+InstrucoesVerificadoras_RetornoLogico :
+operadoresLogicos universal e noModoKeywordDaLinguagem -
+
+{ exclamação ! significado antes de variável: NAO Nega o valorDaVar, sozinho depois de instrução sigificado: Afirmação "É isso mesmo!" AfirmaPodeConfiar}
+
+Perguntadores_UsaInstrucoesVerificadoras funcao if else , Ilimitado, aplicar quando não sabemos a quantidade de opções a serem implementadas, 
+
+funcao switchCase Limitado, aplicar quando sabemos a quantidade de opções a serem implementadas, Expressoes_curtoCircuito , ...usa
+...
+Funcoes: possiveis: [ leituraDeDados, escritaMostrarDados ]
+...
+
+ferramentas_de_modelagem:
+ incorporar estrutura com param struct, ou this de classe, membros de tipo primitivo, ou obj com métodos para estruturas e tipos primitivos para linguagens que trasformam em classes staticas os membros de tipos primitivos
+ferramentas_de_Contrato: interface
+
+----
+programacao_Defensiva: golang não tem tryCatch pra proteger de possível erro num bloco protetor então tratamos o possível erro retornando o recipiente de erro como nulo, caso haja o ego ele volta com o erro pra quem for usar.
+
+funcaoDeServico e de modulos/libs em go tem que retornar algo um log ou algo com o  erro e o acerto ... e a Função que vai usa-la tem que verificar se veio algo no erro e depois aproveitar o acerto
+
+ResumoFuncaoCaseServico : cria a regra é da resultado de novoErro e acerto
+ResumoFuncaoPrincipal: recebe erro e acerto e executa devolvendo os 2 erroVazio e acertoCheio. Materializados
+
+Valorizado: é a utilidade de dar um valorMaterializado como resposta , principalmente quentinha da e instanciacao ele ocupa por default a variável naobja deixando indefinida.
+aplicabilidade: dar um retorno de erroMaterializado.
+
+Em go : declarar uma instancia/variavel inicialmente vazio sem valores tipo um let: variável := Modelo{}  se for originario de objeto/modelo coloque chaves vazia || ou var variável string // sem o valor
+
+Regra: 
+Usar_Funcao: "instância o erro e o acerto dela e faz algo com eles."
+
+Métodos que convertem tipos de dados diferentes devolvem um array/Alice de bytes[] 
+
+...
+
+
+Universal
+Verificacoes_DesvioCondional: primeiramente faça lógica positiva com a regra do objetivo, depois às consequencias
+
+....
+Faça TDD:
+Conselho pra vida,prazo se discute,qualidade não. Melhor entregar depois e bem feito,do que antes,e cheio de bug.
+
+Se vai estruturar ou  reestruturarLegado já começa direto, faz os testes
+....
+Atualizar Deno : deno upgrade 
+tutorial: aos 3:30 https://youtu.be/4Tt5ievC5iU
+
+....
+TYPESCRIPT 
+criar constante dentro de classe
+ao inves de explicitar const use private
+
+recipienteConstante :
+  fora_de_modeladorClasse: const nomeRecipiente,
+  dentroDeModeladorClasse: private nomeRecipiente
+----
+ATUALIZAR GOLANG
+Plataforma: 
+ tutorial: [ "https://youtube.com/watch?v=_SmXEb7ZWHw&si=EnSIkaIECMiOmarE", ] 
+  
+ instalacao_no_linux: "baixxe o pacote aqui https://go.dev/doc/install", 
+  
+ obrigatorio_remover_instalacoes_anteriores: "apos baixar o pacote de o comando onde vc baixar o zipado :: obs: mudar a url onde esta usr colocar o home, e onde esta usr colocar o usuario do sistema ::" 
+  
+ comando_remover_e_instalar: "```sudo rm -rf /home/rzj/go && tar -C /home/rzj -xzf go1.20.linux-amd64.tar.gz```", 
+  
+ configuracoes_vars_ambiente_plataforma:  
+  
+   adicionar_binario_ao_caminho_do_sistema_do_usuario: export PATH=$PATH:"/usr/local/go/bin" 
+  
+   ver_todas_varsDeAmbiente_da_plataforma: "```go env```" , 
+  
+ ver_versao_confirmando_instalacao: "```go version```", 
+  
+ limpar_cache_de_modulos_baixados: go clean -modcache // vai limpar o cache dos modulso baixados em go/pkg/ a pasta cache de todos modulos externos baixados. pra recuperar algum importante... lá no projeto de um go mod tidy 
+  
+ atualizar_ferramentas_da_plataforma_no_editor_vscode: "F1 >>> escolha .GoInstall/Update tools  // marque as opcoes geralmente todas que quer atualizar e aperte em ok vai atualizar o tools do go >>> reinicie o editor", 
+  
+ release_novidades_das_atualizacoes_oficiais: "https://go.dev/doc/devel/release",
+
+--- FIM ---
+
+

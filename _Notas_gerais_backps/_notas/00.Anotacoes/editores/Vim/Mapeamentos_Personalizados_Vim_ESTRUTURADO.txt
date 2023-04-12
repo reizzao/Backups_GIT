@@ -1,0 +1,16 @@
+
+Mapeamentos_Vim_Personalizados: 
+Salvar_Arquivo: "map <C-s> :write<CR>  // vai salvar com Crt-S e confirme dando enter", 
+
+  AbrirEFecharTooglePainelLateralNERDTree_Para_C_B: `map <silent> <C-n> :NERDTreeToggle<CR>  // para Crt+B`,
+
+  Abrir_Nova_Aba: "# 'Ctrl+t', nmap <C-t> :tabnew<CR> // #TODO ESTA NAO CONSEGUI FUNCIONAR : abri entao com :tabnew NOMEARQUIVO.",
+
+  Pular_Para_Proxima_Aba: "# 'Ctrl+PageUp', nmap <C-PageUp> :tabnext<CR>",
+
+  Voltar_Aba_Anterior: "# 'Ctrl+PageDown', nmap <C-PageDown> :tabprevious<CR>",
+
+  Fechar_Aba_Corrente: "# 'Ctrl+End', nmap <C-End> :tabclose<CR>",
+
+---
+

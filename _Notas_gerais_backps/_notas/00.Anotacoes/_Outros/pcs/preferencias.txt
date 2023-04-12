@@ -1,0 +1,8 @@
+
+preferencias:
+ cursor: "I-Beam",
+ fonts: 
+  fonts: [
+  "jetBrainsMonoMedium Nerd Font Medium ", tamanhoIdeal: 13,
+  
+  ]

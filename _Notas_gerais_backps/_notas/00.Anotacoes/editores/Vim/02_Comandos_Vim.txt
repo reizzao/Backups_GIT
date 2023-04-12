@@ -1,0 +1,39 @@
+
+arquivos:
+  Abrir_Arquivo_Dentro_De_Editor_Ja_EmUso: "usar o de open ex: :o arquivo.extensao",
+  adicionar_arquivo_novo_pelo_sidebar_nerdtree: "tecla 'a' de adicionar e digite o nome do arquivo"
+
+ListaDeComandos: https://docs.aws.amazon.com/pt_br/cloud9/latest/user-guide/keybindings-vim-windows-linux.html
+
+navegacao_abas:
+ novas_abas: "```:tabnew arquivo.extensao``` // se o arquivo nao existir vai ser criado",
+ fechar_aba: "```:tabclose arquivo.txt```",
+ fechar_TODAS_abaS: "```:qa ou :tabonly```",
+ alternar_entre_abas: "```Ctrl + PageDown ou Ctrl + PageUp```",
+
+ pulos:
+  pular_texto_a_texto_com_direcao: "```shif + seta```",
+  pular_texto_a_texto_para_frente: "```w de word```",
+  pular_texto_a_texto_para_traz: "```b de back```",
+  ir_para_comeco_linha: "^ ou 0",
+  ir_para_fim_linha: "$",
+
+ apagar:
+ apagar_texto_unitario: "x",
+ apagar_toda_linha: "dd",
+
+	Apaga até o início do arquivo: "dgg",
+	Apaga até o início da linha atual: "d0",
+	Apaga a palavra: "dw",
+	Apaga as quatro palavras anteriores: "d4b",
+	Apaga até o próximo ponto: "df.",
+	Apaga até o fim da frase: "d)",
+
+  ---
+  plugins:
+   sidebar_painel_navegador_diretorios: nerdTree 
+   abrir_painel_diretorios: ":NERDTree",
+   fechar_painel_NERDTrue: "nao precisa ir ate ele, só dar o comando :q",
+   abrir_qualquer_arquivo_selecionado: "'o' ou ENTER",
+   Mapear_No_Vimrc: "",
+   pular_entre_janelas: "Ctr + w w // pula entre janela-vai do menu aos arquivos.",

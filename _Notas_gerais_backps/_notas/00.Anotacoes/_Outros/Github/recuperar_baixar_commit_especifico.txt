@@ -1,0 +1,20 @@
+
+recuperar_baixar__commit_especifico:
+tutorial: "https://devopscube.com/checkout-clone-specific-git-commit-id-sha/",
+
+conceito: "fazer checkout no hash do commit alvoASerRecuperado, criar uma branch nova para receber o recuperado e recuperar nele.",
+
+passos: "```
+ // 1º tem que estar no diretorio de origem para estar agindo no diretorio certo.
+
+ // 2º fazer um log para achar o commit alvo especifico:
+ // ver_hash_de_commit_especifico_no_git_na_web: "entre no repo , clique em commits, tem um link de copiar hash no commit. // pronto tens o hash do comiit alvo na mao..segue >>"
+
+
+// 3º tem que fazer checkout
+git checkout a4ddb6f3af1f1e9f9453dd2cd51a35c409d3a6fe
+
+// 4º criar nova branch novo ramo para recebe-lo
+git checkout -b recuperando_pgmDeno a4ddb6f3af1f1e9f9453dd2cd51a35c409d3a6fe
+----
+",

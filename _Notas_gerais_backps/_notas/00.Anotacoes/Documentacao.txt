@@ -1,0 +1,8 @@
+
+Procurar
+  Conceito: "toda linguagem tem o pacote/modulo math pesquise por ele",
+  
+  PacoteMatematicoParaNumeros: "pesquisar por math de matematica e em exemplos Floor que é arredondamento"
+
+
+ PacoteNumeros_Arredondamento: "https://pkg.go.dev/math#example-Floor",

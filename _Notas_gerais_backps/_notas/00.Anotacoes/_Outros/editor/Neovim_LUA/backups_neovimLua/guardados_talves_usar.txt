@@ -1,0 +1,20 @@
+
+
+
+-- fechar arquivo com q
+set("n", "q", ":quit <CR>", opt) 
+
+========
+Plugin_Guardados_TalvesUse :
+// modelo
+nome: "", categoria: "", Beneficio: '',  instalacao: ``, configurarSetar: ``,
+
+nome: "nvim-transparent", categoria: "estilo", Beneficio:nsparencia no terminal 'tra',  instalacao: `Plug 'xiyaowong/nvim-transparent'`, configurarSetar: `
+-- transparencia terminal
+vim.g.transparent_enabled = true
+`,
+---
+
+
+
+========

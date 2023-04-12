@@ -1,0 +1,70 @@
+local cmd = vim.cmd
+local Plug = vim.fn['plug#']
+
+vim.call('plug#begin', '~/.config/nvim/plugged')
+-- 
+Plug 'L3MON4D3/LuaSnip'
+
+-- theme tema em uso : habilitar na var colorscheme
+Plug 'dracula/vim'
+
+ -- suport a sintaxe
+ Plug 'sheerun/vim-polyglot'
+
+-- File Explorer - para arquivos :: abrir, modificar, deletar arquivos
+Plug 'scrooloose/NERDTree' 
+
+-- 
+Plug 'ryanoasis/vim-devicons'
+
+-- 
+Plug 'ervandew/supertab'
+
+ -- auto pairs :: fechamento de delimitadores chaves ex: '(' '[' '{' 
+ Plug 'jiangmiao/auto-pairs'
+ 
+ -- frontend *************************************************
+ -- css configuracoes
+Plug 'ap/vim-css-color'
+
+-- ************************************************************
+ 
+ -- lsp : servidor de linguagens
+ Plug 'neovim/nvim-lspconfig'    
+ Plug 'hrsh7th/nvim-compe'
+ 
+ -- TERMINAL *************************************************
+ -- terminal flutuante
+Plug 'voldikss/vim-floaterm'
+
+ -- Airline vim : barra terminal footer comandos
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
+ 
+  -- *******************************************************
+
+ -- Git plugin : comandos github
+ Plug 'tpope/vim-fugitive'
+ Plug 'Xuyuanp/nerdtree-git-plugin'
+ Plug 'tpope/vim-rhubarb'
+ Plug 'junegunn/gv.vim'
+ 
+ -- Used to shows icons on screen : icones
+ Plug 'ryanoasis/vim-devicons'
+ 
+ -- Plugin for search engine inside nvim : Popup explorador de arquivos navegador
+ Plug 'nvim-lua/popup.nvim'
+ Plug 'nvim-lua/plenary.nvim'
+ Plug 'nvim-telescope/telescope.nvim'
+ Plug 'nvim-telescope/telescope-fzy-native.nvim'
+ 
+ -- comentar toda a linha ou linhas selecionadas
+ Plug 'preservim/nerdcommenter'
+ 
+ -- Viminspector to debug : debugar
+ Plug 'puremourning/vimspector'
+ 
+ Plug 'hrsh7th/vim-vsnip'
+ Plug 'hrsh7th/vim-vsnip-integ'
+
+vim.call('plug#end')

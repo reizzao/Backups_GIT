@@ -1,0 +1,8 @@
+
+bugs_resolvidos:
+ defeito: "ao apertar seta para cima estava abrindo novo terminal do terminator.",
+ solucao: "desinstalar e instalar novamente o terminal terminator.",
+
+ ---
+
+ 

@@ -1,0 +1,13 @@
+
+site: "http://astronvim.com/",
+
+remover_diretorio_antigo_nvim: "rm -rf .config/nvim/   ::obs: o diretorio nao pode existir vai criar novamente na install.",
+
+clonarAutoInstalar: "git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim", 
+
+executarNvim: "nvim"
+
+ver_Lsp_Disponiveis_Para_instalar: ":LspInstall <tab> vai mostrar disponiveis..só rolar com <tab>"
+
+propagar_Instalacao_Do_LSP_Escolhido: ":LspStart"

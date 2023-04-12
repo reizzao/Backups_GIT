@@ -1,0 +1,465 @@
+
+Descobrir_instancia_de_Origem
+
+array campo diferencial: a primeira posição é objeto ou matriz outro array dentro :: pega com [0 ou numeroDaposicao] o restante pega com.nokeDaKey ou em algumas linguagens consegue por [posicaoChave][posicaoValor] ???
+String também é um array de caracteres podemos usar ações de array nelas
+
+FAZER BASE PGM
+próprios métodos de array, reproduzir famosos, Crud
+
+MembrosProto (props e metodos) de Tipos Primitivos e Personalizados (originados de ModeladoresDeTiposPersonalizados)
+
+Criar repo git BasicProjects // para prontinhos .
+
+Funcao: posso criar o tipo de retorno de dado que quiser.
+
+Variável é aquela que instância qualquer modelador incorpora passa a ser este tipo e valor e guarda está instancia....resumo: variável é instânciar.
+
+Tratar_Erros : Vi mantém tryCatch : https://youtube.com/watch?v=f--pS45o_zg&si=EnSIkaIECMiOmarE
+
+Continuar pgm :
+
+any em golang é interface{} , aceita qualquer tipo na variável.
+
+LOOP
+For é o loop rodagem PARA UMA COISA ...ATE OUTRA COISA ...CONTINUE, CONTINUE, CONTINUE... REPITA ATE SER FALSO A CONDICAO.
+
+propositoLoop: repetir repetir o comando só que a cada rodagem muda o alvo que será uma variável iteradora a cada rodagem ela estará em uma linha lida pelo loop.
+
+....
+
+GoTeplate 2023 : https://zetcode.com/golang/template/
+....
+
+Linguagem Basic ..comandos ordens semelhante JS sem palavras chaves Já??
+Como funciona o pc: https://youtube.com/watch?v=22nd99SLgNA&si=EnSIkaIECMiOmarE
+
+Variável pode instância: um singular ou compostoConjuntoDeSingulares
+.ciclo: 
+registro_que_todos_precisam_pra_existir_: declaração, que é instanciacao , está declaração terá um nome que será a representação o link pra quem precisar usa-lo.
+
+
+um_dado: variável, representa: um valor único dentro do componente. 
+analogia: valorPrimitivo é a gema, componente é a casca do ovo ... pra manipular usamos a casca assim levamos a gema pra qualquer lugar,  assim se tornando uma variável que vateia dentro desta casca podemos usar qualquer gema.
+
+diversos_componentes: objeto, representa diversas variáveis em um componente.
+
+componente_armazenador_de_componentes: array, guarda diversos componentes de objetos.
+
+----
+os agrupadores objeto e array tem que ter ações CRUD
+-----
+operadores_condicionais
+conceito: formam expressoes verificam perguntam entre um operandoDado operador outroOperandoDado.
+  retornam: um boleano,
+  
+  condicionais_de: 
+  igualdade: e_igual, nao_e_igual
+  proporcao_numerica maior_Que, menor_que,
+
+operadores_logicos
+conceito: avalia expressões condicionais. 
+retornam: boleano,
+  obrigatorio_um_e_outro: && mais que uma ação junta verdadeira é verdade
+  tanto_faz_Ou_outro: || mais que uma ação junta basta uma ser verdadeira que resultará verdade.
+  Nao: !
+  
+----  
+Ternario: 
+  conceito: pra colocar um valor em uma variável depende de uma condição, aí coloca um ou outro valor
+  Em golang é diferente :: vai no universal if else
+  ver na aula de operadores.
+
+-----
+
+em_uma_funcao:
+Tem que dar uma resposta ,
+
+dependemos de dados , este dado pode ser uma variável, objeto, array ...usamos sua representação.
+
+Se o dado esperado for externo , temos que manipula-lo assincronamente esperar ele chegar e depois fazer algo
+
+Pode dar certo ou errado.
+respostaSe der certo, resposta se der errado
+
+----
+
+Criar artefatos : tudo é como uma intanciacao sem o operador new, exceto classe pública...Se for estruturaDeDado modela , instância, prepara_Preenchimento_ComValor
+
+preenchimento: pode ser magicoLiteral, dinamicoComAriaveisParametro
+
+exemplos:
+instância texto: var texto = "meuTexto"
+instânciar estruturaDeDado : var estrutura = Car{valor, valor2}
+
+uns sao acumuladores dos outros:
+comeca com variavel
+objetos componentiza grupos de variaveis
+array componentiza grupos de objetos
+matriz componentiza grupo de arrays.
+
+todos estes componentizaveis tem metodosPrototiposDoModeloPrimitivo do tipo que armazenam.e podem ser manipulados.
+podem ser acessados por posicao ou chaveUnica
+podemos criar mais acoes personalizadas no modeloProto.
+
+.....
+
+Ciclo: Mostre / Leia / Converta / Responde
+
+Mostre : e o input o pedido em forma de dado vai mandar entrar com dado.
+Leia : teremos recuperável o input de forma volátil.
+Converta: vamos transformar para o tipo que precisamos pra manipular a resposta porque o PC só recebe textos.
+Responda: vamos retornar pra quem enviou o input pedido.
+
+...
+
+funcao pode utilizar de forma logica:
+desvios condicionais logicos
+metodos do componentizaveis [ variavel, objeto, array, matriz ] 
+
+podemos preparar tudo acima em estrutura de modelo e Contratos pra criar diversos.
+
+memoria :
+volatil: é eletrica temporaria apagavel apos a execucao...nao é recuperavel.
+nao_volatil_hd : é o hd salva armazena o valor definitivamente e assim podecser recuperado.
+
+parenteses sao feitos para isolar ou executar instrucoes.
+chaves ou bloco: sao escopos de consequencia  para fazer o que foi instruido antes .
+
+
+=====
+
+
+Tem Uiversal e Moderno:
+operações lógicas, métodos de arrays,
+
+Tem cada linguagem seu modo de :
+ visibilidade atributos e variáveis, como declarar funções,
+
+função por sim só já é uma estrutura.
+
+convencao: nome da pasta igual nome do pacote ...dos arquivos não precisa
+
+Pq a: significado: App que rode também  de forma offline
+
+Ciclo_do_dado: declara , usa preenchendo, recupera o preenchido.
+
+dado:
+no_ambiente : singular solto || de classe junto com outros || de struct || json de transferência  || xml de transferencia
+
+Chat GPT web : https://chat.openai.com/chat
+
+se_englobam:
+variável > conjuntoVariaveis >  hashObjeto >  loop > todos da pra usar dentro da <funcao>
+
+Funcao:
+conceito: fazer as expressões, leitura, mostrar dados somente uma vez e compartilhar para uso e o que for dado mágico usamos params assimdiversos poderiam usa-la.
+
+declaracao_funcao: se declara função da mesma forma que declara variável a diferença é que após o nome se atribui ou insere os () das opções/params que vai  preparar para ler no bloco se consequência.
+
+2 tipos de funcoes: Set ler os dados, Get mostrar os dados
+
+Preciso_todo_global
+Er como acessar semântica de tipos já no tá os membros Porto,  se precisa instalar o tá global 
+
+Como configurar opcionalmente o tsConfig no deno
+
+Descobertas:
+- Descobrir o tipo
+- Descobrir a instância que família pertence
+
+Convenção nomes:
+  contratos
+  entidade : EntityModel
+  props: 
+    conceito: uma entidade tem 2 tipos de props: 1 que os valores serao gerados pelo sistema, 2 que os valores vão ser argumentado pelo cliente
+    
+  props_sistema : PropsSystemEntity
+  props_argumentosRequest: ArgsEntity
+contra
+
+Dia 27 de fev 2023 curso já espera com Erick Wendel .. streaming vídeos no node.js
+
+Formas de implementar cumprir contrato : via implementa na classe, ou via param de métodos ou construtor.
+
+Statico: vc não cria instâncias, vários vc reserva só um espaço na memória para usar o que criou estático, é o único deste.
+
+Metodos_Desencadeados: gera uma respostaCapturavel.
+
+Metodos_Invocados: já agem diretamente no alvo passado... deixa a captura de resultado opcional.
+
+parei 01:30 aula csharpe do fredi
+
+tratamento_de_erros:
+ tratar_emquemvai_usar: prepare o tratamente de possivel erro ou excessao com try/catch onde for usar o metodo que pode estourar uma excessao/erro e nao onde o metodo é criado...sóem wuem for usa-lo..porque ele estoura o erro na camada de uso acima.
+
+acoes_que_costumam_estourar_erro: sao as acoes que buscam dados externos tipo requestHttp pedidoVindoViaHttp, escrita e leitura vindas de um banco de dados.
+
+processadores: https://geek360.com.br/qual-o-melhor-processador-de-celular/
+
+diferenciais_linguagem:
+  ao_inves_de_string_variavel: nameof( nomeParaVariavelOndeEsperaEmString) na compilacao vai transformar este nomeVar em string, beneficio: se vc mudar o nome da var em outros lugares vai mudar junto, vc nao fica refem da escrita em string
+
+no c# tem o operador not ao inves do !vars ,
+loops possiveis [ while, do while, for, foEach ]
+
+loops: o loop é semelhanca: da condicional if() diferença que ele repete o que foi instruido na consequencia {} ate que seja falsa a condição passada .
+
+valvulas_de_escape: para_loop: possiveis: [ incremento ou decremento unario, condicional usando saida  break ou break direto para stopar , instrucao continue ]
+
+operadores especiais da linguagem
+ es_algo: is , devolve boleano
+ verifica_dentro_estrutura: in
+ negacao: not
+ 
+
+preferencias_do_dev:
+ prefira usar inferencia dinamica nas vars ao inves de dizer tipo que ela é.
+
+objetoStatico: quando sera o "UNICO" a  ter ou saber fazer algo, exemplo: Console,  Calculos, 
+
+objetoPublico : podera existir VARIOS iguais a este., exemplo: User, Product
+_
+singleton: objeto singular so tera ele para toda aplicacao, quando a app inteira precisar sóde um objeto pra fazer algo ..naonpodeta ter outro fazendo...isto acarreta em apenas uma instancia aberta fazendo pra alguem se outro quiser fazer tambem tera que fechar uma instanciaSingleton que esta fazendo e abrir a sua....ex: exemplo o navegador é um singleton nos o abrimos uma vez.
+
+representacao: é a variavel.
+variavel : representa o valor, é a representacao que vem antes do sinal de igual  "=" e faz uma instancia do valor apos o sinal de igual e guarda o valor do instanciado em um compartimento na memoria
+  sinonimo: [ recipiente, resultado, captura, retorno, artefato ]
+  contextualizando: se tenho uma variavel chamada numero eu tenho um numero representado e o nome desta var tem que ser coerente com o que tenho de valor ai que entra na nomeacao as convencoes de nomes.
+---
+
+input:
+conceito: entrada_de_dado_na_capsula.
+
+  dadoSingular: monta com uma variavel.
+  
+  dadoComposto_ObjetoEstruturado: monta com classe , 
+
+membros_de_leitura:  montamos com getter
+membros_de_escritaModificacoes: montamos com setter, e metodosDaClasse
+obs: as acoes de membros daram poder de manipular os campos que o objeto tem , e usar os comportamentos herdados do seu tipo de valor definido.
+
+---
+preencher_argumentar_dados:
+conceito: para ter dados com valor tem que declarar, pode se declarar isoladamente em escopo aberto o dado que sera singular ou como paramDinamico em uma funcao.
+
+  de_forma_literal: insere magicamente o valor marretando.
+de_forma_dinamica: CadaVezUm Utilizador :: declaramos as vars a serem argumentadas nos ( ) paresenteses de param.
+
+significados :
+
+this: na montagem o this da acesso aos campos do escopo acima principal da classe... e representa no objeto final a instancia, ex: se instancio e crio numa ar um pessoa1 que tem a prop nome ... o this seria como this.nome na montagem e no uso pessoa1.nome .. entao enxergue o this como a instancia a ser criada.
+
+parenteses_angulares: sao os " <P> " para conter parametros de generico .
+
+variavel_enderecoNaMemoria : 
+o valor de uma var nao é o que é atribuido e sim o endereco na memoria do que foi atribuido, por isto da falso se compatar var igual var...
+ onde o valor( de classePrimitiva, ou de classePersonalizada) foi atribuido e guardado.
+se atribuimos por valorPrimitivo sera atribuido por valor, se atribuimos por funcao, ou objeto sera atribuido por referencia...que no fim sempre vai guardar primitivo simgular ou compostoEstruturado(objeto)
+
+. link: https://www.facebook.com/groups/jsoficial/permalink/1852106251791758/?app=fbl
+
+plataforma: é o eco-sistema um  sdk  uma estrutura repleta de inumeros modulos prontos que oferece um ambiente para trabalharmos com a linguagem destinada pra este ambiente .
+
+exemplo: [ na plataforma Dotnet da microsoft usamos a linguagem C#, na Google usamos as linguagens golang e o dart, na plataforma Deno usamos a linguagem typescript,  no Spring usamos a linguagem java, no Node usamos javascript && typescript,  na Python usamos Python, etc...],
+
+  pacote: package | modulo module | pedacos de codigo | biblioteca lib .
+
+instrucoes: statment | comando sem retorno | declaracao | É isto | valor
+
+expressao: expression ao contrario de statment é um comando que retorna valor e pode ser armazenado em uma variavelCapturaResultado.
+
+tipagem: 
+posiveis : [ tipoDeValor, tipoDeReferencia ]
+
+tipoDeValor : montados_por: struct, ex: [ numeros, boleano, char ] , conceito: sao tipos que terao o valor singular armazenados dentro deles., 
+suportaValor: valorSingular,
+analogia: se tenho um papel escrito 10 na memoria ele sempre vai ser 10...se foi armazenado com este valor nao vou conseguir muda-lo.
+
+tipoDeReferencia: montados por classe , ex: [ String, Object ], conceito: apontam nao para o valor primitivo final e sim para um enderecoHash na memoria onde o valor esta guardado. Sendo possivel assim manipula-los na memoria.
+suportaValor: sequenciaDevalorComposto Manipulavel por Membros Prototipos.
+analogia: se tenho um papel armazenado na memoria destes tipoDeReferencia  vou conseguir mudar manipular seu valor por que tenho o endereco desta memoria e nao o valor tendo o endereco entro e faco o que quero..porque é um tipo construido por classe e posso usar nele seus membros de prototype.
+
+significado: Montagem que Representa algo, Type ,Familia, na memoria é um espaco sufiente pra caber membros de outras classes/tipos a espera de seus valores, 
+
+considerar:  tipagem como uma classeOuStructEstruturaObjeto e dela desencadeamos membros props e metodos do seu Prototype que definimos na montagem da classe.
+
+tipoPersonalizado: ao criarmos uma classe ou struct  ja criamos um tipo personalizado e daremos a este tipo seus membros propsDeLeitura e metodosDeEscritaModificacao.
+
+membros: 
+  possiveis: [ props, metodos ]
+  caracteristica: propriedade, variavelMembro de leitura Get getter que traz informacao guardada.
+
+  comportamento: metodo, funcao Setter Set modificadora que transforma informacoes ou realiza procedimentos de rotina
+
+---
+dados_valores: 
+  origem: todos dados sao objetos, se desencadear em um numero uma string vai acessar os membros/comportamentos
+---
+
+abstrato: representa nao é tocavel, nao produz filhos, narracao: 'É UM' , ex: Pessoa 
+
+name_space: nome da categoria da classe/tipo ... para organizar as classes/tipos nomeadas categorias, ex: onde tenho a classe  Funcionario coloco o nameSpace user
+escolher nome abstrato.
+
+---
+modificadores_de_acesso:
+  linguagem: c#,
+  a_propriedades:
+   constante: const,
+   mutavel : var,
+  
+a_props_de_classe:
+  privada: 
+  protegida:
+  publica: 
+--
+
+  vscode : ver comandos das libs e do vscode  ctr + shift + P 
+  uso: digita o nome da lib| extensao | ou comando do proprio vscode
+  ---
+
+linux:
+  cli_comandos_de_pacotes_instalados:
+    informacao_de_parametros_apos_comando: nomeDoPacote
+    
+ordem_comandosUnix : semelhante uma funcao  <pacote> <parametro> <instrucao>
+
+    parametrosUnix : sao os que vem com --2tracos nome do param pra uso ou usa o short a abreviacao
+--
+implementacao: 
+  inicio: prefirir comecar com TDD,
+---
+funcao_Principal: é a funcao main() e normalmente ela é a primeira a ser executada, se quer executar as pitras use/invoque dentro da main.
+
+tipos:
+significado: Familia
+conceito: todo dado tem que vir de uma familia.
+---
+
+keyword:
+significado: palavra_chave ,
+aplicabilidade: [ pararExecucao, saidaDeEscopo, mudanca de visibilidade de variaveis ]
+
+keywords_para_regras_de_preenchimento_de_variaveis:
+
+  linguagem: dart,
+  conceito: nenhum tipo de valor uma vez atribuido pode ser mudado o seubtipo...em algums keywords vc pode mudar o valor... mas sendo sempre da mesma familia de tipo.
+
+  inferido: Sera adivinhado o tipo pelo valor inserido nao precisa de keyword.
+
+  mutavel_podeMudarValor: var,
+imutavel_apos_primeira_atribuicao: const
+...
+
+operador_de_atribuicao:
+significado: recupera, armazena  
+
+---
+variavel: 
+possiveis: [
+  variavelSingular: 
+    convencao: nomear em camelCase ,
+    aplicabilidade: sera uma referencia que guarda na memoria um valor primitivo. 
+  
+  variavelInputParametro: 
+    convencao: nomear com a primeira letra do seu alvo
+aplicabilidade: capsula que servirá como input entrada de um dado/valor preparado para ser dinamico quando usarem a funcao de tecnica setter set escrita modificadora.
+  
+]
+---
+guardar_para_substituir_por_variavel: dadosMmagicos, expressoes guarde capture  em  uma variavel e quando precisar desfe dado use a referencia da variavel que vai apontar na memoria para este dado nela encapsulado e de forma unica rotulado.
+---
+funcao:
+
+possiveis: [ tecnicaGetLeitura, tecnicaSetterEscritaModificadora ]
+
+retorno_funcao:
+uma funcao por padrao se vc nao coloca nenhum comando de saida ou nada dentro do seu bloco ela por padrao ja retorna nulo...
+é como se tivesse return null.
+e para usar recuperar este retorno null vc diz que o TipoSucessoRetorno? ...podera ser nulo com ? depois da declaracao do TipoSucesso
+
+---
+bloco_de_funcao: 
+  por padrao um bloco de funcao contem invisivel um return null, ele é o retorno de valor padrao quando na ultima linha vc nao usa nenhum comando de saida com valor util, nem retorno encapsulado em instrucao.
+  entao se vc for recuperar esta funcao vai ter um nulo.
+
+---
+# estrutura_de_dados: 
+sao estruturas que iteram sobre arrays/listas agrupadores de conjuntos e dados
+
+encapsulador: 
+sao estruturas que guardam conjuntos de dados....e tem herancaProto desencadeavel para acoes.
+
+exemplo: 
+- conjunto objeto que agrupa dados primitivos,  
+- agrupador de conjuntos array [] que agrupa objetos, 
+
+---
+
+keywords:
+  comando_de_saida:
+usa-se somente 1 por bloco...geralmente é comando de saida pra sair dele.
+
+comando_operador_logico: 
+  usa se keyword logico intercalado em expressoes... como se fosse um operador logico...é um comando logico devolve true ou false.
+
+===
+# valor variavel  :
+/*
+conceito_valor:
+
+- um recipiente tem que ter valor de qualquer jeito, seja ja definido ou padrao.
+
+ - temos um recipiente que nao sabem se vira com valor ..entao tem a hipótese de ser nulo.
+- sendo assim fazemos um recipienteAuxiliar que diz que se caso nao tiver valor nesteEsperado ele tera tal valor padrao depois dos "??"
+- preparamos um funcao pra receber este valor por param ...uma funcao por padrao sem nada ou sem return na ultima linha ja return null..mas nessa vamos retornar o valor recebido.
+- ao usa-la chamamos ela com o recipienteAuxiliar que se nao tiver valor sera usado o valorPadrao.
+
+obs: em linguagens tipadas colocamos ? no Tipo para informar que tem a hipotese de ser opcional ou sem valor de inicio.
+*/
+// exemplo em js:
+let valor;
+
+const useValor = valor ?? 'nao informado';
+
+function fnUseValor(v) {
+  return v
+}
+console.log( fnUseValor( useValor ) )
+===
+---
+constante: o valor da variavel uma vez setado nao pode mudar nem tipo nem valor é imutavel. igual o valor de PI nunca muda ate o fim do programa.
+---
+
+loops :
+narracao :
+while funcao repetidora 
+<while> repita ate (<esta condicao for verdade>) { a instrucao deste bloco }
+
+---
+design_pattern_top:
+  composite: composicao de classes methods. .. usar varios metodos compostos de uma vez  em uma propriedade.
+  
+---
+classe_objeto:
+  campos_metodos: os metodos pode configurar o valor dos campos no objeto a ser criado/instanciado. ex: se tem um campo autenticado = false,  posso fazer o metodo autenticar que vai dar o poder de quando quiserem tronar este campo true.
+  --
+boleano:se um metodo ou expressao devolve boleano vc pode usa_lo dentro do if()
+___
+
+Datas
+Trabalhar com data:
+Pega essa valor que vem do body, coloca numa variavel
+
+const date = new Date(req.body).toISOString()
+
+Só fazer a formatação depois com essa função 
+
+function formatDate(date)
+{
+  return date.split("-").reverse().join("/")
+}
+
+---
+

@@ -1,0 +1,2 @@
+instalacao:
+sudo apt install build-essential g++

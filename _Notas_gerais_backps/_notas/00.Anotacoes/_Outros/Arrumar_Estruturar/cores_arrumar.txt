@@ -1,0 +1,8 @@
+Cor color cores ARRUMAR
+
+black: #222222 || #333333 
+
+...
+
+links:
+temas nvim : https://m.facebook.com/story.php?story_fbid=pfbid0Ko9NrV4wpyqy6csdMLmf4QCa2AribZouFVwwfcrw2dzFJSeyULcSsYFAsMiAzUDml&id=100025942071800&mibextid=Nif5oz

@@ -1,0 +1,29 @@
+# Renomear Branch Local e Remoto:
+Comece mudando para a ramificação local que você deseja renomear:
+
+git checkout <old_name>
+cópia de
+Renomeie a ramificação local digitando:
+
+git branch -m <new_name>
+cópia de
+Neste ponto, você renomeou a ramificação local.
+
+Se você já enviou o <old_name>branch para o repositório remoto , execute as próximas etapas para renomear o branch remoto.
+
+Empurre a <new_name>ramificação local e redefina a ramificação upstream:
+
+git push origin -u <new_name>
+cópia de
+Exclua a <old_name>ramificação remota:
+
+git push origin --delete <old_name>
+cópia de
+É isso. Você renomeou com sucesso a ramificação local e remota do Git.
+
+Conceito: `Branches fazem parte do processo de desenvolvimento de software e são um dos recursos mais poderosos do Git. Branches são essencialmente ponteiros para um certo commit.
+
+Renomear um Git Branch local é uma questão de executar um único comando. No entanto, você não pode renomear diretamente uma ramificação remota; você precisa empurrar a ramificação local renomeada e excluir a ramificação com o nome antigo.
+
+`,
+---

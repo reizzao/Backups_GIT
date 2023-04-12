@@ -1,0 +1,9 @@
+
+problema_com_Modulos:
+ limpe_o cache_de_modulos: `go clean -modcache`,
+
+---
+
+modulos:
+  ver_vars_ambiente_golang: `go env`,
+  mudar_valor_vars_go: `go env -w VARIAVEL=valor`, exemplo: `go env -w GO111MODULE=auto`,

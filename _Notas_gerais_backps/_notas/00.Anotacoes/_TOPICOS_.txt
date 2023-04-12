@@ -1,0 +1,8 @@
+# Topicos PGM
+- conceitoBasePgm
+- modulando_sub_pastas :: para guardar objetos de informacoes a serem usados fixos no programa.
+
+- linguagem
+- tipoDeDado
+- entradaDeDado
+- tipagemGenerica

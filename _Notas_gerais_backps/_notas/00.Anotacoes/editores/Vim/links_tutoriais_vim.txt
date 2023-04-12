@@ -1,0 +1,14 @@
+
+links
+
+Configurar_Vim_E_Neovim: "by manualDoCodigo: https://www.manualdocodigo.com.br/vim-basico/",
+
+tutoriais_vim: 
+"https://codamos.com.br/vim-basico/",
+
+"comandos : https://gist.github.com/magnocosta/542ec275427ffaaec1e1",
+
+"mapear_Atalhos_Vim: https://www.youtube.com/watch?v=K1a8yTY5GxU",
+"",
+
+usando o Vim : https://danvitoriano.medium.com/usando-o-vim-7ac5c3795e23

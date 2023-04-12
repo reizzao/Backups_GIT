@@ -1,0 +1,12 @@
+
+criar_nova_branch_um_novo_ramo: "```git checkout -b MinhaNovaBrach```",
+criar_nova_branch_apartir_de_branch_especifica: "```git branch -c branchEspecifica MinhaNovaBrach```",
+
+importante_depois_de_criar_nova_branch_fazer_monitorado_trancking: "
+```git checkout MinhaNovaBrach
+git add . // se precisar adicionar algum arquivo modificado.
+git commit -m "Olha que commit lindo <3"
+git push -u origin MinhaNovaBrach```",
+
+---
+

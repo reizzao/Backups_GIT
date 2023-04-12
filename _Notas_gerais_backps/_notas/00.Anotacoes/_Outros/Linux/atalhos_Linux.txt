@@ -1,0 +1,8 @@
+
+Atalhos_Linux:
+  Hierarquia: "Os comandos de terminal tem prioridade sobre os outros comandos de outros pacotes/programas.",
+  Fechar_Terminal: "C-Shift-W",
+
+Inserir_No_Bashrc_Via_Shell:
+  inserir_via_atalho_um_alias: `echo 'alias COMANDO="APELIDO"' >> .bashrc`,
+  Exemplo: `echo 'alias vim="nvim"' >> .bashrc`,

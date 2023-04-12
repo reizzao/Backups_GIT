@@ -1,0 +1,5 @@
+
+
+versao: "nvim --version",
+
+remover_antigos_nvim: "rm -rf .config/nvim/"

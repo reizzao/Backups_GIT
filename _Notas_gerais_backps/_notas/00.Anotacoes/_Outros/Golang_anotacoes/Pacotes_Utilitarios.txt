@@ -1,0 +1,12 @@
+
+descobrir_Tipo: 
+  fonte: `import "reflect"`,
+  uso: `reflect.TypeOf( alvo )`,
+  devolve: `o tipo do alvo`,
+  exemplo: `apelido := reflect.TypeOf( alvo )`
+  
+converter_string_em_numero: 
+  fonte: `import "strconv"`,
+  uso: `strconv.Atoi(utils.LoadEnv("numero"))`,
+  devolve: `o numero e o erro // obs: o erro vc pode ignorar com _ handerline`,
+  exemplo: `numero, _ := strconv.Atoi(utils.LoadEnv("numero"))`

@@ -1,0 +1,8 @@
+
+ErroPossivel : "(no value) used as value",
+Traducao: "(sem valor) usado como valor",
+Causa: "Possivelmente esta dando dois Print de Console na Origem e pnde esta usando.",
+
+---
+De_Sintax:
+ erro: "illegal label declarationsyntax", traducao: "sintaxe de declaração de rótulo ilegal", causa: "esta usando o sinal de atribuicao errado", solucao: "use o sinal de atribuicao certo >> ':' para objeto ou '=' para variavel",

@@ -1,0 +1,4 @@
+Descobrir 
+  - como dar mais que um valor a um campo de struct em string tipo para ser opcoes ex: campo1 = texto1 | texto2
+
+  

@@ -1,0 +1,12 @@
+====
+bugs: em golang se ficar dando erro de importacao dar um go mod tidy para atualizar importacoes no no runTime da paltaforma e no arquivo sum.go
+
+=====
+
+modelagem_implementacoes:
+
+Nome : "Conceito_Modelagem",
+Conceito: "o que queria ter como obrigatorio transfomo em campos no Model/Struct Principal e nos outros SubModels os campos que quero que o obrigatorio tenha ex: usado no pacote registros em PgmGolang.",
+
+====
+

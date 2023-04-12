@@ -1,0 +1,83 @@
+{
+  // global
+  "divid_decorado": {
+    "prefix": "divid_decorado",
+    "body": [
+      "/****************************************************",
+      "# $0",
+      "  - ...",
+      "***************************************************",
+      "*/"
+    ],
+    "description": "divid_decorado"
+  },
+  "html5_template": {
+    "prefix": "html5_template",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"pt-br\">",
+      "<head>",
+      "    <meta charset=\"utf-8\">",
+      "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "    <title>$0TituloPagina</title>",
+      "</head>",
+      "<body>",
+      "    <p>Olá_mundo</p>",
+      "</body>",
+      "</html>"
+    ],
+    "description": "html5_template"
+  },
+  
+  "http_api_rest_template": {
+    "prefix": "http_api_rest_template",
+    "body": [
+      "### ",
+      " ",
+      "$0POST {{ host }}/home",
+      "Content-Type: application/json",
+      "",
+      "{",
+      "  \"prop1\": \"foo\"",
+      "}",
+      "",
+      "### "
+    ],
+    "description": "http_api_rest_template"
+  },
+  
+  "config_rest_extensao_vscode": {
+    "prefix": "config_rest_extensao_vscode",
+    "body": [
+      "{",
+      "  /*  VARIAVEIS DE AMBIENTE PARA EXTENSAO CLIENT_HTTP #PORT_SERVER */",
+      "  \"rest-client.environmentVariables\": {",
+      "    \"Local Env\": {",
+      "      \"host\": \"http://localhost:5000\"",
+      "    }",
+      "  }",
+      "}"
+    ],
+    "description": "config_rest_extensao_vscode"
+  },
+
+  "divid": {
+    "prefix": "divid",
+    "body": [
+      " /* *************************************************** */",
+      "",
+      "$0",  
+    ],
+    "description": "divid"
+  },
+  "divid_ESTRELAS": {
+    "prefix": "divid_ESTRELAS",
+    "body": [
+      "***************************************************",
+      "",
+      "$0",  
+    ],
+    "description": "divid_ESTRELAS"
+  }
+
+}

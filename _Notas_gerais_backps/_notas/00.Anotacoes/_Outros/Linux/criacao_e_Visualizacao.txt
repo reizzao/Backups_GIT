@@ -1,0 +1,19 @@
+
+---
+
+Criacao:
+  criar_pastaDiretorio: `mkdir nomePasta`,
+  criar_arquivo: `touch nomearquivo.extensao`,
+
+---
+
+Visualizar:
+  mostrar_propriedades_detalhadas_De_diretorio: `ls -la ,
+  
+---
+
+EntendendoArquivosNaVisualizacaoDetalhada:
+  QuandoEDiretorio: `comecao com dr é diretorio/pasta ex: drwxrwxr-x`,
+  QuandoEArquivo: `comecao com dr é diretorio/pasta ex: -rw-rw-r--`,
+
+---

@@ -1,0 +1,16 @@
+
+# Comandos_Mais_Usados_Vim
+
+dd -- deletar toda linha
+yy -- copiar toda linha
+p - colar
+
+!comando_run - rodar arquivo no barra/terminal
+Abrir_Arquivo_Dentro_De_Editor_Ja_EmUso: ":o nome-arquivo.txt",
+
+c-b -- abrir painelToogleSidebar
+c-pageUp -- proximaJanela
+c-pageOn-- anteriorJanela
+c-End -- fecahr janela
+
+c-ww -- pular entre paineis

@@ -1,0 +1,7 @@
+
+em_golang:
+
+Como definir um campo de modelagem ja com texto fixoDefault e compartilhar entre os objetos este texto fixoDefault.
+
+
+---

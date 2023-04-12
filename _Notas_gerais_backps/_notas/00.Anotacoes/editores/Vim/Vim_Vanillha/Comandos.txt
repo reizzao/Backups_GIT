@@ -1,0 +1,9 @@
+
+abrir:
+  novo_arquivo: "e <tab /caminhos>", significado: "e de explorer",
+
+fechar:
+  todos_buffer_abas_abertas: ":qa!", significado: "q fechar, a de all todos , ! de forçado",
+
+Listar:
+  todas_tabs_abertas: ":tabs", tutorial: "https://www.freecodecamp.org/news/learn-linux-vim-basic-features-19134461ab85/#:~:text=To%20directly%20move%20to%20first,%3A%20%24%20vim%20%2Dp%20source.",

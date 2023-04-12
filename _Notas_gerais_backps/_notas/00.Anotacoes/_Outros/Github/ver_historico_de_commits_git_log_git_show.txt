@@ -1,0 +1,8 @@
+
+ver_historico_de_commits:
+  tutorial: "https://www.youtube.com/watch?v=pVF7snOnqws // apartir dos 6:00 minutos"
+
+  ver_todo_historico: "```git log <hash do commit>```",
+  ver_historico_por_arquivo: "```git log <nome arquivo sem extensao>```",
+  ver_modificacoes_feitas: "git show <hash>",
+  ver_hash_de_commit_especifico_no_git_na_web: "entre no repo , clique em commits, tem um link de copiar hash no commit."

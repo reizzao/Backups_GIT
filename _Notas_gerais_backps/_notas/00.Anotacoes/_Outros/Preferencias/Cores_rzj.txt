@@ -1,0 +1,14 @@
+links cores rzj: https://docs.google.com/spreadsheets/d/1RdeAsKfs3_WZjq4CQQkbTv-viOE9hTv0hJcGc3uYiO8/edit#gid=1799305901
+
+Super_Darks:
+  Nome: "RzjDark_23_1", Hex: "#090c10",
+  Nome: "Omini_21", Hex: "#191622",
+  Nome: "Dracula_21", Hex: "#191a2e",
+  Nome: "GitDark_21", Hex: "#0d1117",
+  Nome: "GitDark_21", Hex: "#0d1117",
+
+MiniDark: 
+  Nome: "MiniGitDark_21", Hex: "#090c10",
+
+Clean_Comentarios:
+  Nome: "ComentarioDracula", Hex: "#525f89",

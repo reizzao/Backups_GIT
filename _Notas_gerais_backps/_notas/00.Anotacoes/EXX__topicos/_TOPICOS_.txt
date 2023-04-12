@@ -1,0 +1,26 @@
+# Indice
+
+- significado
+- plataforma
+- convencao
+- linguagem - declaracao - regrasLinguagem
+- valor - InstanciandoVariaveis
+- tipoDeDado
+- projeto
+- instanciacao_de_variavel - protecaoReescrita
+- conversor
+- modelador - inmemory acoes de modelador em instancias
+- colecao_inmemory
+- colecao_implementar
+- crudl - colecao_inmemory // Create_Add - Read_TodosColecao - Read_Especifico_ById - Update - Delete - Lixeira
+- algoritmo
+- funcao :: funcaoAnonima / 
+- funcaoTecnicas
+- algoritmoFuncao / caseServiceResultados - ExecuteMostrar
+- entradaDeDados  :: entradaDiversosDados
+- algoritmoInstrucoes
+- instrucoesLogicasBoleanas
+- formulas
+- testes
+- apiRest
+

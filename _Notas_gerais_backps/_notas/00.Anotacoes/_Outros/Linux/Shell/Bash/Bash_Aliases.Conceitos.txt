@@ -1,0 +1,6 @@
+
+criar na raiz arquivo .bash_aliases que o bashrc esta preparado para usa-lo como configuracoes personalizadas do meu user para nao ficar mechendo no bashrc.
+
+
+
+

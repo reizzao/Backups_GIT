@@ -1,0 +1,36 @@
+# Dicas :
+
+mostrar_chaves_de_objeto_que_vem_de_uma_funcao:
+"instancio no Sprintf a funcao que retorna o objeto desejado... e mostro esta instancia.",
+
+struct:
+- nao retorna todos os structs criados ???? semelhante a classe que inserimos uma lista vazia e mostramos todos que sao adicionados a esta lista.
+
+ponteiro: o & é adicionado antes da instanciaVariavel no momento de preencher o valor.
+
+formar_objeto_dentro_da_funcao:
+exemplo:
+func addTipoPrimitivo () TipoPrimitivo {
+	boleano := addBoleano(&ObjBoleanoGolang)
+	texto := addTexto(&ObjTextoGolang)
+	caractereUnico := addCaractereUnico(&ObjCaractereUnicoGolang)
+	numInteiro := addNumeroInteiro(&ObjNumeroInteiroGolang)
+	numDecimal := addNumeroDecimal(&ObjNumeroDecimalGolang)
+	erro := addErro(&ObjErroGolang)
+	anyQualQuerInterface := addAnyQualquerInterface(&ObjAnyQualquerInterfaceGolang)
+
+	objCreated := TipoPrimitivo{ 
+		Boleano: *boleano, 
+		Texto: *texto, 
+		CaractereUnico: *caractereUnico,
+		NumeroInteiro: *numInteiro,
+		NumeroDecimal: *numDecimal,
+		Erro: *erro,
+		AnyQualquerInterface: *anyQualQuerInterface,
+	}
+  
+	return objCreated
+}
+---
+
+LigarEDesligar_variavelDeAmbineteGolang: `go env -w GO111MODULE=off`

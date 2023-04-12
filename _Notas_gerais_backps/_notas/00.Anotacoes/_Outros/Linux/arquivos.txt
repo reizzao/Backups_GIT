@@ -1,0 +1,14 @@
+
+
+arquivo_configuracao_todos_usuarios: ".bashrc :: é arquivo de configuracao que carrega tudo que esta disponivel para todos usuarios.",
+
+CriarArquivo: "touch <nomeArquivo.extensao>",
+
+CriarPasta: "mkdir <nomePasta>",
+
+mudar_permissao_arquivos:
+  permitir_escrita_e_leitura: ` ```chmod +x ./<arquivo>``` `,
+
+remover_pasta_com_conteudo: `rm -rf PASTA/ - se precisar coloca sudo antes`,
+
+MoverAquivo: mv <arquivo.extensao ou pastaSemExtensao> <paraOndeSemCD> , Exemplo: mv foo .. >>> ta movendo pasta foo 1 pasta acima // mv b.txt /home/rzj/Vídeos/  >>> esta movendo b.txt para pasta Videos

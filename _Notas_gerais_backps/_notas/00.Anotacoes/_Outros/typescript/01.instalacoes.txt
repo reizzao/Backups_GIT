@@ -1,0 +1,4 @@
+
+instalacoes:
+  servidor_Lsp_global_ts_para_neovim: `npm i -g typescript typescript-language-server`,
+  tutorial: `https://neovim.discourse.group/t/tsserver-doesnt-work-on-windows/1553/10`,

@@ -1,0 +1,4 @@
+
+personalizar_opcoes:
+  caminho: "~/.config/nvim/lua/astronvim/options.lua",
+  mostrar_abas_abertas_tabline: "showtabline = 0",

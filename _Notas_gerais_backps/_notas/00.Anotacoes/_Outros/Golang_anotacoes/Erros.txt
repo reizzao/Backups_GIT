@@ -1,0 +1,2 @@
+Erros_Golang:
+  NoController: "nao chame as funcoes das rotas executando com () , apenas deixe a referencia das funcoes sem os aparenteses..para ao subir a app nao tomar o erro:  not enough arguments in call to",

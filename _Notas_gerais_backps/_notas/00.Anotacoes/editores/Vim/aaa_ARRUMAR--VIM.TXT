@@ -1,0 +1,525 @@
+significados:
+treesitter é para colorizar sintaxe de linguagem.
+...
+
+Atalhos_Editor_Top:
+  conceito: da preferencia para comandos em modo insert.
+  leader: space | Crt
+  comentario: C | S -cc
+  renomear: F2
+  buscar: C-F
+  exploer: C-B
+  terminsl: C-T
+  navegadorArquivosFlutuante: 
+  rodar arquivo: F5
+  movimentar: setas | < >
+  navegarBuffer: S-Tab
+  tabIdentar: < >
+  navegarComandos: F1
+  salvar: C-S
+  sairSemSalvar :
+  sairSalvando: 
+  fecharTudo:
+  copiar:
+  colar:
+  desfazer: C-Z | u
+  refazer: C-S-Z | C-R
+  
+  
+
+...
+
+VimScript:
+clausulas:
+nnoremap : é o modo n normal
+inoremap: é o modo i insert 
+vnoremap:é o modo v visual
+
+nmap: para modoNormal, setar combinacao de teclas com comandoDePlugin
+
+===
+
+Conceitos:
+Atalhos:
+  Com_Ctrl_Ou_Shit: somente em modo insercao,
+  ComLeader: somente em modo normal neutro,
+  Selecionar: em modo Shift Visual
+
+Modo de comando: usar 2 pontos e digitar o comando
+
+====
+
+DESCOBRIR :: Descobrir_Neovim:
+-- ver se o terminator tem arquivo configuracao tema.
+--criar pasta e arquivo atraves do :comandoAirline
+- fechar automaticamente delimitadores de escopo ex: {}, [], ().
+- LSP Servidores de Linguagem
+-- como selecionar tudo :: shift v ???
+-- como deletar ,renomear, duplicar arquivo pelo explorador
+- cursor alinhado em  multiplas linhas. deve ser Shift V modo shif Visual
+- duplicar linha
+- mover linha
+- autoSave
+- peguntar antes de sair sem salvar
+- github iniciar repo, criar banch, commitar
+- renomear variavel em todo projeto
+- mudar font
+- criar tema
+- auto comolete linguagens
+- fechar cada tabnew, e navegar rapido pra reabrir outra...ideal deixar só uma aberta, quando abrir outra fecha a outra..deixando assim sempre só uma aberta
+- duvida se novos comandos setados no vim reflete no neovim ou somente os da api nativa do vim.
+- 
+
+===
+
+ComandosVimBase:
+
+Categoria: "",
+Modo: "",
+Comando: "",
+Significado: "",
+Funcao: "",
+...
+Categoria: "Entrar em modo",
+Modo: "n",
+Comando: "a",
+Significado: "append , puxar",
+Funcao: "entra no modo insert e insere letra na frente do cursor.",
+...
+Categoria: "Entrar em modo",
+Modo: "n",
+Comando: "o",
+Significado: "",
+Funcao: "entra no modo insert pulando a linha.",
+...
+Categoria: "navegacao",
+Modo: "n",
+Comando: "w",
+Significado: "word / palavra",
+Funcao: "navega palavra por palavra",
+...
+Categoria: "navegacao",
+Modo: "n",
+Comando: "b",
+Significado: "before ou back voltar",
+Funcao: "volta palavra por palavra",
+...
+Categoria: "pesquisa",
+Modo: "n",
+Comando: "f",
+Significado: "find / encontrar buscar",
+Funcao: "encontrar palavra",
+...
+Categoria: "navegacao",
+Modo: "n",
+Comando: "n",
+Significado: "next proximo",
+Funcao: "em pesquisas navegar pro proximo.",
+...
+Categoria: "tela",
+Modo: ":comando",
+Comando: ":terminal",
+Significado: "terminal shell",
+Funcao: "abre novo terminal",
+...
+Categoria: "tela",
+Modo: ":comando",
+Comando: "vsplit",
+Significado: "dividir",
+Funcao: "divide tela abrindo o arquivo que vc especificar",
+...
+Categoria: "comandos terceiros",
+Modo: ":comando",
+Comando: "! antes comando",
+Significado: "habilita insercao de comando de terceiros ex:linux",
+Funcao: "habilita comandos do seu shell",
+...
+Categoria: "comandos",
+Modo: ":comando",
+Comando: "exclamacao depois !",
+Significado: "forca, impoem certeza, pode confiar",
+Funcao: "força a execucao do comando chamado antes",
+...
+Categoria: "arquivo",
+Modo: ":comando",
+Comando: ":w",
+Significado: "write / escreve salva.",
+Funcao: "grava salva arquivo",
+...
+...
+Categoria: "tela",
+Modo: ":comando",
+Comando: ":q",
+Significado: "quit / fecha",
+Funcao: "fecha sai da tela | arquivo",
+...
+Categoria: "",
+Modo: "",
+Comando: "",
+Significado: "",
+Funcao: "",
+...
+...
+Categoria: "",
+Modo: "",
+Comando: "",
+Significado: "",
+Funcao: "",
+...
+...
+Categoria: "",
+Modo: "",
+Comando: "",
+Significado: "",
+Funcao: "",
+...
+====== ComandosCombinados
+Categoria: "entrar em modo",
+Modo: "n",
+Comando: "shift v",
+Significado: "visual selecionador",
+Funcao: "seleciona toda linha em direcoes, mandar pra baixo vai selecionando todas linhas.",
+...
+RAPIDOS
+gg: ir para o início do arquivo
+shift v || h ou G: ir para o final do arquivo
+
+abrir arquivo na tela aberta, e: arquivo.ext , e de explore
+
+===
+BONS LINKS
+https://danvitoriano.medium.com/usando-o-vim-7ac5c3795e23
+
+=====
+
+NEOVIM COM INIT NEOVIM COM INIT LUA
+Usando VimScript no Lua:
+se for variavel para dar/setar argumento atribuo sem escopo.
+
+???Se for para usar variaveis que ja trazem valor uso dentro de cmd[[...]]
+
+===
+
+TODO:
+
+Tentar clonar e editar o Tema lunar do lunarVim
+
+ServidorDeLinguagens: 
+Nome: nvim/coc
+Benefícios: auto complete e carregamento opcoes da linguagem, sintaxe, ferramentas...
+
+ParaFuncionarServidorDeLinguagem_Coc:
+instala o plugin nvim/coc
+vou na pasta dos plugins baixados cd plugged // la dou npm instal // npm build // configura o json com a lista das linguagens desejadas 
+confirma com PlugUpdate
+testa autoComplete em js, css, go, rs
+
+====
+Traduzindo_de_VimScript_Para_Lua:
+
+NoVim: set , NoLua:  vim.opt,
+NoVim: let , NoLua:  vim.g,
+
+====
+
+MAIS COMANDOS
+:tabnew sozinho ja abre um arquivo em branco dps vc salva e da nome.
+
+Modo Normal cada caractere é um comando.
+
+====
+
+Conceito: instalar vim e neovim...a instalacao é crua temos que criar os arquivos de configuracao.
+
+ConfigurandoNeovimComLua: Neovim instalado obedece o arquivo init que pode ser da extensao da linguagem que vc pretende escrever as confuguracoes. .vim ou init.lua
+
+
+=========
+AjudaSignificadoComandos :h comando // h de help.
+
+Se selecionar com mouse entra automaticamente no visual.
+
+Conceito: "todos esses comandos da api vim ja tem configuracao default ao contrario do que vamos mudar aqui.",
+
+esses comandos podem ser usados no init.lua para neovimLua
+
+ComandosApiVimParaSetar: 
+Default: quando nao setar um comando do seu jeito, o vim por padrao o editor deixa ao contrario do que vc mudou..deixa no padrao zero os comando.
+
+  comando: "sintax on",, significado: "habilita sintax",
+  comando: "set nu",, significado: "habilita numero das linhas",
+  comando: "set tabstop=2",, significado: "2 espacos para cada tab",
+  comando: "set softtabstop=2",, significado: "",
+  comando: "set shiftwidth=2",, significado: "",
+  comando: "atê >>> ident",, significado: "tem haver com identacao",
+  comando: "set hidden",, significado: "alternar entre abas de buffer abertos, no caso arquivos via abas...OBS: NAO ATIVAR ESTE DEIXA PADRAO SOMENTE UMA ABA.",
+  
+  comando: "set incsearch",, significado: "da auto complete em buscas",
+  comando: "set ignorecase",, significado: "ignora se é Maiuscolo ou Minusculo.",
+  comando: "set smartcase",, significado: "se buscar com a primeiraMaiuscula ai ele so encontrara  maiuscula..desabilita nesta busca o ignorecase",
+  comando: "set scrolloff8",, significado: "deixa espaco de 8 linhas no fim da pagina, se o cursor tiver la pra melhor visualizar o fim.",
+  comando: "set colorcolumn",, significado: "aviso colorido de fim da coluna costumam definir em 100",
+  comando: "set signcolumn",, significado: "linha de logs a esquerda antes dos numeros, linters e marcacao debugger usam ela.",
+  comando: "set cmdrigth=2",, significado: "seta 2 linhas para o box de  terminal Airline",
+  comando: "set updatetime=100",, significado: "altosaveso que nao acho q precisa de plugin  ::tempo pra auto salvar em 100 milisegundos.",
+  comando: "set encondingutf=8",, significado: "para poder usar novas fonts",
+  comando: "set nobackup e nowritebackup",, significado: "nao cria arquivo de backup",
+  comando: "set splitrigth",, significado: "abre split novoArquivo a esquerda da tela.",
+  comando: "set splitbelow",, significado: "se escolher na horizontal cria o split abaixo.",
+  comando: "set autoread",, significado: "se outro Editor atualizar um arquivo atualize aqui no vim  tambem .",
+  comando: "set mouse=a",, significado: "habilita o mouse.",
+  comando: "filetype",, significado: "detecta arquivos conforme a linguagem e habilita rodar comandos da linguagem ex: rodar um arquivo e mais.",
+  comando: "",, significado: "",
+  comando: "",, significado: "",
+
+=====
+
+LUA
+
+Conceito: instalar vim e neovim...a instalacao é crua temos que criar os arquivos de configuracao.
+
+ConfigurandoNeovimComLua: Com o Neovim instalado criar o que ele obedece como ponto de entrada que é o arquivo init.lua ou init.vim qualquer arquivo init.algumaCoisa que pode ser da extensao da linguagem que vc pretende definir as configuracoes.
+
+comandosGeraisVim:
+   
+  tudoTodos: 'a', Origem: all Exemplo: :qa! , Significado: fecha todos forcadamente
+ Recortar: d,
+ Deletar: dd , Origem delete
+DuplicaLinha: :t. , https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim
+
+=========
+
+AjudaSignificadoComandos :h comando // h de help.
+
+obs: cmd é o comand ... abre escopo para inserir comandos do vim script original.
+
+mudarModos:
+ESC muda modos..por default primeiro entra no modo normal neutro, 
+Se selecionar com mouse entra automaticamente no visual.
+
+Conceito: "todos esses comandos da api vim ja tem configuracao default ao contrario do que vamos mudar aqui.",
+
+esses comandos podem ser usados no init.lua para neovimLua
+
+ComandosApiVimParaSetar: 
+  comando: "sintax on",, significado: "habilita sintax",
+  comando: "set nu",, significado: "habilita numero das linhas",
+  comando: "set tabstop=2",, significado: "2 espacos para cada tab",
+  comando: "set softtabstop=2",, significado: "",
+  comando: "set shiftwidth=2",, significado: "",
+  comando: "ate ident",, significado: "tem haver com identacao",
+  comando: "set hidden",, significado: "alternar entre abas de buffer abertos, no caso arquivos via abas.",
+  comando: "set incsearch",, significado: "da auto complete em buscas",
+  comando: "set ignorecase",, significado: "ignora se é Maiuscolo ou Minusculo.",
+  comando: "set smartcase",, significado: "se buscar com a primeuraMaiuscula ai ele so encontrara  maiuscula..desabilita nesta busca o ignorecase",
+  comando: "set scrolloff8",, significado: "deixa espaco de 8 linhas no fim da pagina, se o cursor tiver la pra melhor visualizar o fim.",
+  comando: "set colorcolumn",, significado: "aviso colorido de fim da coluna costumam definir em 100",
+  comando: "set signcolumn",, significado: "linha a esquerda antes dos numeros, linters e marcacao debugger usam ela.",
+  comando: "set cmdrigth=2",, significado: "seta 2 linhas para o box de  terminal Airline",
+  comando: "set updatetime=100",, significado: "tempo pra auto salvar em 100 milisegundos.",
+  comando: "set encondingutf=8",, significado: "para poder usar novas fonts",
+  comando: "set nobackup e nowritebackup",, significado: "nao cria arquivo de backup",
+  comando: "set splitrigth",, significado: "abre split novoArquivo a esquerda da tela.",
+  comando: "set splitbelow",, significado: "se escolher na horizontql cria o split abaixo.",
+  comando: "set autoread",, significado: "se outro Editor atualizar um arquivo atualize aqui no vim  tambem .",
+  comando: "set mouse=a",, significado: "habilita o mouse.",
+  comando: "filetype",, significado: "detecta arquivos conforme a linguagem e habilita rodar comandos da linguagem ex: rodar um arquivo e mais.",
+  comando: "",, significado: "",
+  comando: "",, significado: "",
+
+=====
+
+LUNAR VIM
+sair: exit,
+plugins: 
+compilarNoTerminal: TermExec
+OpcaoAbrirOutroTerminal: :ToggleTerm
+
+
+
+======
+
+# TODO DESCOBRIR VIM
+- descobrir como ver  todos vim script comandos
+- duplicar linha
+- mapear setas para movimentacao.
+
+========
+MODOS VIM
+Modo: "" , 
+Aplicabilidade : "",
+SintaxeDeComandos: "", 
+EntrarNoModo: "",
+
+Modo: "Insert Insercao" , 
+Aplicabilidade: "Editar, Empurra pra frente",
+SintaxeDeComandos: "Combinacao de teclas com Ctr", 
+EntrarNoModo: "i : insere antes do cursor",
+Alternativas: "i || a espaço : insere depois do cursor || shift i || I i maiuculo : insere no comeco da frase || shif A insere no final da linha || s entra substituindo || S vai substituir toda linha || shif C apaga pra frente || ",
+
+Modo: "Substituicao" , 
+Aplicabilidade: "escreve por cima",
+SintaxeDeComandos: "", 
+EntrarNoModo: "tecla INSERT",
+
+Modo: "Visual" , 
+Aplicabilidade: "Selecionar",
+SintaxeDeComandos: "movimentavao, mouse, ", 
+EntrarNoModo: "v",
+
+Modo: "comandoTerminal" , 
+Aplicabilidade: "comandos terminal console",
+SintaxeDeComandos: ":2pontos <acao/comando>", 
+EntrarNoModo: ":2pontos",
+
+=======
+
+MaisUsadosEmInsercao:
+  RemoverLinha: "Ctr",
+  Refazer: "C-R",
+  IdentacaoLinha:: "C-T",
+  VoltarIdentacaoLinha: "C-D",
+  ApagarLinha_DoCursorPraTraz: "C-U",
+  AutoComplete: "C-U",
+  
+=======
+
+MaisUsadosEmComandoTerminal
+  CopiarEmQuantidades: "10yy",
+  ColarEmQuantidades: "10p",
+  InformacoesVim: "vim info",
+
+=======
+MaisUsadosEmModoVisual:
+ SelecionarBloco: "seta pra baixo ou via mouse",
+===/
+
+-- buffet é a memoria do vim as acoes ficam no buffet.
+
+--- vimtutor : tutorial vim scessar via shell: vimtutor
+
+Links vim
+Melhor: segunda tech https://youtube.com/playlist?list=PLFLP00anrT1IbFsuNEXrO8rPb-C4np-_0&si=EnSIkaIECMiOmarE
+==========
+
+//////////////////////
+
+selecionar:
+
+---
+pesquisar
+- historico_de_comandos: :2pontos seta para cima. , em_modo: comandosESC
+
+- pesquisar_palavra_baixo_para_cima: /palavra , "barra palavraAlvo",
+ opcoes: "n" de next para ir para proxima ocorrencia, 
+
+- pesquisar_independente_se_maiuscula_ou_minuscula: ?<alvoTarget> com interrogacao ao inves da barra
+
+***
+LINKS VIM tutotiais: [
+- aurelio ::  https://aurelio.net/vim/vim-comandos.html
+- 
+];
+***
+
+***************************
+********** TUDO:
+abrir_ou_criar _arquivo : vim <arquivo.extensao>
+
+cursor: onde estou, na barra abaixo mostra a linha, coluna e total de linhas que tem no arquivo.
+
+mudar_modo:
+possiveis: insercaoEdicao, comandosESC
+sair_de_modos: ESC significado: escape escapar
+
+insercao: "i" ou "o" , recurso: edicao escrever i entra onde estiver, o "o" entra e pula uma linha.
+***************************************
+selecoes:
+visual: v , recursos: pode selecionar trechos.
+
+==========================
+possiveis: [ funcaoInsercao, funcaoTerminal ]
+
+funcoesInsercao:
+ conceito: funcoesInsercao sao usadas com Ctr+TECLA e funcionam no modo de insercaoEdicao.
+
+identacao_linha: Ctr+T , recurso : identa a linha , em_modo: insercao, tipo: funcao
+desfaz_identacao_linha: Ctr+D , em_modo: insercao, tipo: funcao
+
+  identar: ctr + T ou TAB ,  para desfazer ctr + D
+  apaga_linha: ctr + u voltando pra ultima posicao da linha de cima.
+ 
+historicoEscritasTextos: Ctr+N , em_modo: insercao, tipo: funcao
+
+---
+
+funcaoTerminal:
+  conceito: funcoes comecam com 2 pontos: , apos dar enter e confirmar o uso da funcao dar "n" para next ir para proxima ocorrencia vc vai ver o cursor navegando mostrando onde ele esta.
+
+  ordenar: :sort ordena arquivo inteiro, sort n ordena alfaNumerico,  n de numericamente.
+
+pesquisa_substituicao:
+
+substituicao_uma_ocorrencia_onde_esta_o_cursor: :s/CONTEUDO/POR_NOVOCONTEUDO/ , obs: s/dentro de barras o conteudoAlvo/porNovoConteudo/ ele vai substituir somente onde o cursor esta... s de substituir.
+
+substituicao_ocorrencias_globais_na_linha_do_cursor: :s/CONTEUDO/POR_NOVOCONTEUDO/g, 
+obs: adicionar o "g" no final para ser global subsituir todas ocorrencias na linha do cursor.
+
+substituicao_no_arquivo_inteiro: :%s/CONTEUDO/POR_NOVOCONTEUDO/g, 
+obs: adicionar o "%" porcento antes do "s" e o  "g" no final que vai pegar todas ocorrencias do arquivo inteiro.
+
+==========================
+
+reescrever : tecla insert, recurso: escreve por cima.
+
+ir: para ir para o modo comandos aperte o ESC
+conceito: cada comando tem a primeira letra ou simbologia do que ele significa em ingles.
+
+detalhe: comandos comecam com 2 ponto para ir ao navegador de comandos.
+
+para_arquivos:
+ salvar: w , recurso_traducao: write grava ,
+fechar: q , recurso_traducao: quit fechar
+forçar: ! exclamacao
+
+juntando_comandos:
+  salvar_e_sair: :wq
+sair_sem_salvar_forcado: :q! , r :  usa se tiver se tiver algo no buffer de memoria...porque se tiver algo no buffer nao da pra sair direto só forçado.
+
+desfazer : u , recurso_traducao: undo == desfazer,  alternativa: crt + R volta pro ultimo estado gravado.
+
+======
+config_editor:
+entrar_na_config_do_editor:no terminal livre fora de arquivo abre com o vim o arquivo vimrc , caminho_edicao_vimrc:  vim /etc/vim/vimrc
+
+comandos_para_setar:
+info: as opcoes para setar esta desligadas quando com aspas de comentario , para liga-los posso digitar a sua instrucao que nela esta descrita ja o comando: ex: set showcmd
+
+  habilitar_com_comando: :set <nome ou alias do comando comentado>,
+  desabilitar_com_comando_temporario: :set no<nome do comando comentado>, "no" desliga o ligado comando.
+
+significados_sets:
+  set_showcmd : para mostrar comandos
+ set_showmatch: se cria chaves ele fecha as chaves
+set_ignorecase: vai ignorar cases maiusculos e minusculas
+set_smatcase: melhorias em combinacoes nas busca de palavras.
+set_incsearch: pesquisa dentro de pesquisa
+set_autowrite: escrever
+set_hidden: mostra os buffers que foram abandonados.
+set_mouse: para usar o mouse dentro do vim
+set_hls: vai ligar o highlight fundo colorido para selecoes de ocorrencias encontradas.
+set wildmode=longest:full :: para sugestoes de comandos
+
+ historico: vim info,  
+
+links_tutorial_vim:
+https://dev.to/nfo94/comandos-basicos-do-vim-e-configuracoes-uteis-gkn
+
+  =====
+comandos_modo_ComandoESC:
+  linha_inteira
+copiar_linha: yy , recurso_traducao: yank == puxão
+recortar: dd
+colar : "p" , recurso_traducao: paste colar  ... no modo insercao vai colar onde estou uma linha abaixo... no modo visual cola depois na sequencia do cursor. .. obs: estando no mesmo terminal compartilhamos o mesmo buffer entao posso abrir outro arquivo no mesmo terminal copiar em um e colar no outro. 
+
+copiar_linhas_definindo_quantidades_numeros_de_colar: yy , <numero>p  , explicando: o numero qualquer que eu passar  define que vai ser colado determinada vezes.

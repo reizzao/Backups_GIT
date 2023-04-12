@@ -1,0 +1,42 @@
+
+atribuicao_Variavel:
+  de_requisicao_viaRest_para_variavel: "rota/:nomeVariavelRecebedora // obs: em string2pontosNOmedaVariavelRecebedora",
+
+  de_importacao_que_so_tem_funcoes_para_variavel: "/string da importacao da lib/ as nomeVariavelRecebedora // obs: apos a string que importa a lib usar o as nomeVariavelRecebedora",
+
+  ---
+  
+  VariaveisDeAmbiente: 
+  passosLogicos: `
+    1 - importar_libs ::  "log" para logar possivel erro, "os" abre arquivo do sistemaOperacional, "github.com/joho/godotenv" lib para ler variaveldeAmbiente
+
+    2 - carregar variavel - verificando se tem erro
+
+    3 - usar variavelCarregada - passando a variavelAlvo como string
+  `,
+
+  importar: `
+  "log"
+	"os"
+	"github.com/joho/godotenv"
+  `,
+
+  carregarVariavel: `
+  // 2- carregar variavel - verificando se tem erro
+  err := godotenv.Load()
+  if err != nil {
+    log.Fatal("Error loading .env file")
+  }`,
+  
+  usarVariavelCarregada: `
+  // 3- usar variavelCarregada - passando a variavelAlvo como string
+	fmt.Println(os.Getenv("TEST"))
+  `,
+
+  exemplo: `
+	err := godotenv.Load()
+  if err != nil {
+    log.Fatal("Error loading .env file")
+  }
+	fmt.Println(os.Getenv("TEST"))
+  `,

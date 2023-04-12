@@ -1,0 +1,13 @@
+
+instalar_font:
+recurso: "instalar font no linux",
+font_original_do_sistema: "Monospace Regular 11",
+
+instalar_fonts: "na home ir na pasta .fonts/ e colar as fontes do no formato .ttf",
+tutorial: "https://mazer.dev/pt-br/linux/tutoriais/como-instalar-fontes-no-linux-debian-ubuntu-ou-mint-de-forma-facil/",
+
+apos_inserir_manual_as_fontes: "executar em .fonts no terminal ::``` fc-cache -f -v``` // Este comando “informa” ao sistema operacional que estas fontes devem ser utilizadas pelas aplicações executando nele.
+As aplicações que estão abertas no momento que executar o comando, devem ser fechadas e abertas novamente para conseguirem identificar as novas fontes instalada",
+
+
+mudar_fonte_no_terminal: "clique com a direita no terminal >> preferencias/perfis >> e mude a fonte ao inves de font do sistema.",

@@ -1,0 +1,2 @@
+
+Se_Logar_A_Repo_E_Ver_Commits_Em_Uma_Linha: "git log --oneline  // serve somente para pasta que tem o .git vc vai se logar aops commits que la foram feitos.", 

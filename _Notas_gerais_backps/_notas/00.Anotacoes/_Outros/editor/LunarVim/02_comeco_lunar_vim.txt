@@ -1,0 +1,14 @@
+sair: "```:q``` mesmo comando do vim ",
+salvar_e_sair: "```:wq```",
+
+abrir_originalmente_arquivo_com_lunarVim : "lvim <arquivo.extensao>",
+
+primeira_abertura_do_main_de_configuracao: "esperar dar [10/10] do download do plugin necessario treesitter.",
+
+resetar_configs: "```reset```",
+
+acessar_arquivo_de_config_geral_do_LunarVim_na_raiz: "```lvim .config/lvim/config.lua```",
+
+configurar_cursor_no_config_lua: "```cursor  I-Beam :: na linha 22 :: vim.cmd([[ set guicursor= ]])  // salavr e sair :wq -- depois dar reset de novo```",
+
+abrir_outra_aba_de_terminal: "```:terminal```",

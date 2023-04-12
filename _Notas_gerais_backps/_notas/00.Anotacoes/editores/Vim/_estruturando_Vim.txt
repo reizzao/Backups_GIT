@@ -1,0 +1,3 @@
+
+// modeloComandos:
+ comando: "" ,noModo: "visual", querDizer: "",nomeComandoParaMapear: "",

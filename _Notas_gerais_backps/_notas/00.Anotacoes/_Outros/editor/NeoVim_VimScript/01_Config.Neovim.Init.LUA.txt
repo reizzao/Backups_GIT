@@ -1,0 +1,2 @@
+
+Desinstalar_Outras_Versoes_Neovim: `sudo apt remove --purge neovim`

@@ -1,0 +1,4 @@
+
+add .gitignore
+
+linha editada via cel

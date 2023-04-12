@@ -1,0 +1,3 @@
+Rodar_Arquivo: "lua <arquivo.extensao>",
+
+PropagarArquivoLua: `luafile%`

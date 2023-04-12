@@ -1,0 +1,8 @@
+
+# Não podem faltar :
+
+Concatenação codigo texto
+Interpolação código texto
+Template literal _pular_linhas_nao_texto
+Como descobrir o tipo
+Como descobrir a instância classe origem

@@ -1,0 +1,2 @@
+Usos:
+ chamadas_de_funcoes: `em chamadas de funcoese rotas da api em controller, apenas referencie a funcao a ser chamada, nao a execute com () apenas referencie sem os (), para nao tomar o erro : (no value) used as value - (nao valor) sem valor usado.`,
