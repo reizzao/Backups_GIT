@@ -1,0 +1,18 @@
+
+Deno.test("[ OK >> ... ] deve retornar objData com o objeto sucesso", () => {
+  const input = inputMinOK;
+  const { sut1 } = makeSut(input);
+  const actual = inputMinOK;
+  console.log("TEST {{ SUT1 }} >>>  ", sut1);
+
+  expect(sut1).toEqual(actual);
+});
+
+Deno.test("[ OK  >> ... ] deve retornar sucesso.", () => {
+  const input = inputMockOk;
+  const { sut1 } = makeSut(input);
+  const actual = sut1;
+  const resultExpected = resultOkKey1Expected
+  console.log("TODO: {{ OK >> DEVE RETORNAR O OBJ OK }} >>>  ", actual)
+  expect(actual).toEqual(resultExpected);
+});
