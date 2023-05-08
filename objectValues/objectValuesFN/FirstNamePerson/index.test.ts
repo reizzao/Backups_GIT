@@ -6,12 +6,12 @@ import {
 } from "./utils/fakes/fakes.ts";
 
 import { setFirstNamePerson } from "../../global/sets/set_FirtsNamePerson/setFirstNamePerson.ts";
-import { ArgMain, InvalidArgFirstNamePerson } from "./contracts.ts";
+import { FirstNamePersonArg } from "./contracts.ts";
 
 const Log = (m: any) => console.log(m);
 
 type ArgsSut = string;
-type ArgControllerSut = { primeiroNome: ArgMain; key2: string };
+type ArgControllerSut = { primeiroNome: FirstNamePersonArg; key2: string };
 
 const makeSut = (d: ArgsSut) => {
   return {
@@ -34,20 +34,20 @@ Deno.test("[ Fail >> FirstNamePerson { lengthTextMin } ] deve retornar msg corre
   }
 });
 
-Deno.test("[ Fail >> FirstNamePerson { lengthTextMin } ] deve retornar a class de Error correta ", () => {
+Deno.test("[ Fail >> FirstNamePerson { lengthTextMin } ] deve retornar a class de Error generica ", () => {
   const checkedMsgErrorLettersMin = setFirstNamePerson.totalLetters
     .msgErrorLettersMin();
   try {
     const primeiroNome = makeSut(firstNameFake.letters.one1);
   } catch (e: any) {
-    const outPrimeiroNome = e instanceof InvalidArgFirstNamePerson;
+    const outPrimeiroNome = e instanceof Error;
     // console.log(">>>>>>>>>>>>>", outPrimeiroNome);
     if (outPrimeiroNome === false) {
       throw new Error(
-        "A instancia do erro não é InvalidArgFirstNamePerson !!!",
+        "A instancia do erro não é Error !!!",
       );
     }
-    Log("Ok: instancia do erro é >> InvalidArgFirstNamePerson !!!");
+    Log("Ok: instancia do erro é >> Error !!!");
   }
 });
 
@@ -66,20 +66,35 @@ Deno.test("[ Fail >> FirstNamePerson { lengthTextMax } ] deve retornar msg corre
   }
 });
 
-Deno.test("[ Fail >> FirstNamePerson { lengthTextMin } ] deve retornar a class de Error correta ", () => {
+Deno.test("[ Fail ] deve retornar o nome da classe customizada de Erro ", () => {
+  const checkedMsgErrorLettersMax = setFirstNamePerson.totalLetters
+    .msgErrorLettersMax();
+  try {
+    const primeiroNome = makeSut(firstNameFake.letters.twentyOne21);
+  } catch (e: any) {
+    const checked = e.name;
+    if (checked !== setFirstNamePerson.msgCustomArgumentsError()) {
+      throw new Error(
+        "OPS! O NOME DA CLASSE DE ERRO CUSTOMIZADA ESTA INCORRETO !!!",
+      );
+    }
+  }
+});
+
+Deno.test("[ Fail >> FirstNamePerson { lengthTextMin } ] deve retornar a class de Error generica ", () => {
   const checkedMsgErrorLettersMax = setFirstNamePerson.totalLetters
     .msgErrorLettersMax();
   try {
     const primeiroNome = makeSut(firstNameFake.letters.one1);
   } catch (e: any) {
-    const outPrimeiroNome = e instanceof InvalidArgFirstNamePerson;
+    const outPrimeiroNome = e instanceof Error;
     // console.log(">>>>>>>>>>>>>", outPrimeiroNome);
     if (outPrimeiroNome === false) {
       throw new Error(
-        "A instancia do erro não é InvalidArgFirstNamePerson !!!",
+        "A instancia do erro não é Error !!!",
       );
     }
-    Log("Ok: instancia do erro é >> InvalidArgFirstNamePerson !!!");
+    Log("Ok: instancia do erro é >> Error !!!");
   }
 });
 

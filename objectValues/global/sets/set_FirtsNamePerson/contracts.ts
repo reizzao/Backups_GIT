@@ -1,5 +1,8 @@
-
-export type ISetFirstNamePerson = { totalLetters: TotalLetters };
+export type ISetFirstNamePerson = {
+  name: string;
+  msgCustomArgumentsError: () => string;
+  totalLetters: TotalLetters;
+};
 
 export type TotalLetters = {
   min: number;

@@ -1,13 +1,13 @@
 import {
-  ArgMain,
   ConstructValidatorFNP,
+  FirstNamePersonArg,
   FirstNamePersonFN,
 } from "./contracts.ts";
 import { listValidatorsFirstName } from "./features/validators.ts";
 
 export const FirstNamePerson: FirstNamePersonFN = (d, set) => {
   return listValidatorsFirstName.reduce(
-    (acc: ArgMain, validatorsFN: ConstructValidatorFNP) => {
+    (acc: FirstNamePersonArg, validatorsFN: ConstructValidatorFNP) => {
       return validatorsFN(acc, set);
     },
     d,
