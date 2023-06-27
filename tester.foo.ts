@@ -5,5 +5,5 @@ const palavraEmPortugues = "português";
 const foo = "meu tester";
 
 /*
-
+.
 */
