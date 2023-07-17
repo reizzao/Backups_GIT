@@ -1,8 +1,0 @@
-{
-  "imports": {
-    "exp": "https://deno.land/x/expect@v0.2.10/expect.ts"
-  },
-  "tasks": {
-    "dev": "deno run --watch main.ts"
-  }
-}

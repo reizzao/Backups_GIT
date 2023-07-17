@@ -1,8 +1,0 @@
-
-
-conceito: importMap ->
-
-configuracao: no deno.json para funcionar tem que ter esats 2 linhas:
-  "deno.config": "./deno.json",
-  "deno.importMap": "./import_map.json"
-
