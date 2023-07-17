@@ -1,0 +1,8 @@
+
+backup jsdoc:
+
+/**
+ * @description setar minimo em numero de string permitido.
+ * @param param0  (s: string, minText: number) :: 1º target, 2º o numero que permitirá de string para o target
+ * @returns string || exceção com feedback
+ */
