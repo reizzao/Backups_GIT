@@ -1,2 +1,0 @@
-
-restaurar_terminal_terminator: "https://dev.to/rafaso/restart-config-s-terminator-439p",

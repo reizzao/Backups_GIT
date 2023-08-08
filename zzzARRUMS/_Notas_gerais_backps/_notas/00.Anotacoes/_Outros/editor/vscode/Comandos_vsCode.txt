@@ -1,5 +1,0 @@
-nome_funcoes_de_teclado:
- navegacao_entre_abas_abertas: nomeComando: "Quick Open Preview Recently ", 
- atalhos: novo: "<space> tab", default: "Ctr+Tab"
-
-  

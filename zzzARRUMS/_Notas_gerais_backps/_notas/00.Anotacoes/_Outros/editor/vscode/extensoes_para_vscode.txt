@@ -1,2 +1,0 @@
-extensoes_vscode:
-  vim_sintaxe: `procurar por XadillaX , link: https://marketplace.visualstudio.com/items?itemName=XadillaX.viml`,

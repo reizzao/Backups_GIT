@@ -1,3 +1,0 @@
-AdicionarManualmenteTema:
-  Para_O_Vim:
-  Local: `~/.config/nvim/plugged/vim/colors  // na pasta de plugins/dentro da subPasta vim/colors`,

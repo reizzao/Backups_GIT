@@ -1,2 +1,0 @@
-links:
-  generics: "https://zetcode.com/golang/generics/",

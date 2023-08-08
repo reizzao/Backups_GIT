@@ -1,7 +1,0 @@
-
-Definir_Shell_Principal:
-  Bash_Como_Principal: "chsh -s /bin/bash",
-  Zsh_Como_Principal: "chsh -s /bin/zsh",
-  Propagacao_Mudancas_Arquivo_Bash: "source ~/.bashrc  // este comando só funciona em terminal com shell bash em zsh nao funciona.",
-
-  VariavelQue ForcaCoresNosPromptsTerminais: `force_color_prompt=yes  // Comente-a senao precisar.`,

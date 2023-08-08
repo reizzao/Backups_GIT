@@ -1,3 +1,0 @@
-
-setar_apelido_para_comando:
-exemplo: "```echo 'alias vi="lvim"' >> .bashrc  // // conceito_alias: apelido="comandooriginal" // depoisPropagar source ~/.bashrc``` ",

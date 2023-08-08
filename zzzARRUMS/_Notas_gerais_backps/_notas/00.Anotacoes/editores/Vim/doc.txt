@@ -1,4 +1,0 @@
-
-types encontrados na doc:
-https://vimdoc.sourceforge.net/htmldoc/syntax.html
-procurar por Structure 

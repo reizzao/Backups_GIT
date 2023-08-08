@@ -1,2 +1,0 @@
-# alias onvim="cd ~/" ### MODELO ALIAS :: NOME DA VAR COMANDO VALOR QUE VAI FAZER
-# diferenca que no zsh que no termional nao preciso executar : comando $variavel , chamo só o nome da variavelAlias

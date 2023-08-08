@@ -1,2 +1,0 @@
-Tutorial:
-  Instalar_Hyper_e_OmyZsh: `by Huncodding :: https://huncoding.notion.site/huncoding/Instalando-ZSH-HunCoding-05d8313f661d46808845a87f8258ecc5`,

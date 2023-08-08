@@ -1,5 +1,0 @@
-###
-GET http://localhost:4444/modeloObj
-Content-Type: application/json
-
-###

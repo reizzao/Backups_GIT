@@ -1,6 +1,0 @@
-# Uso NEOVIM
-  VerTodosPluginsInstalados: ":PackerStatus"
-  AbrirTerminal: ":ToggleTerm", atalho Original: C-n , Mudar_Mapear: C-b
-
-# MapeamentosOriginaisQueModifiquei:
- Mudei:  C-N PARA C-b para abrir o ToggleTerm

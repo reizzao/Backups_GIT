@@ -1,6 +1,0 @@
-# CONFIGS DO .VIMRC ESTAO NO ARQUIVO PERSONALIZADO BASH EM : /$HOME/Personal_Bash/.bash_person_rzj
-
-# Para funcionar esta config. do vimrc clone na raiz do seu HOME o repo: (git clone https://github.com/rzjprogramador/Personal_Vim)
-
----
-

@@ -1,5 +1,0 @@
-
-FuncoesDePacotesNumericos:
-  Nome: "Arredondamento",
-  Pacote: "import "math"",
-  Uso: "math.Floor( numeroAlvo )"

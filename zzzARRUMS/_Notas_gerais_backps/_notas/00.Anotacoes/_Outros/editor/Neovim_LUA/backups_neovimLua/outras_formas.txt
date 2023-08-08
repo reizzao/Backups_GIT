@@ -1,2 +1,0 @@
--- mapleader key
--- g.mapleader = ','

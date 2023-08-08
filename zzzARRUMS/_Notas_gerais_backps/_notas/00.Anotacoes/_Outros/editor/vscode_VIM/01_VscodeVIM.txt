@@ -1,3 +1,0 @@
-
-extensaoParaEmularVscodeVim: vscodevim
-linkExtensao: "https://marketplace.visualstudio.com/items?itemName=vscodevim.vim",

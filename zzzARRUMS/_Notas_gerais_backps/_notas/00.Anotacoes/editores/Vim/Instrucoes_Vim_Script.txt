@@ -1,8 +1,0 @@
-
-Instrucoes_Vim_Script:
-  Comentario: "2 aspas duplas comenta a linha no vim",
-  Keyword_Mapear_Modo_Normal: "map ou nmap",
-  Keyword_Mapear_Modo_Visual: "vmap",
-
-Instrucoes_Uso:
- Abrir_Mais_Que_Um_Arquivo: vim -o arquivo1.ext arquivo2.ext  // tutorial: https://elias.praciano.com/2018/03/como-abrir-multiplas-janelas-no-editor-vim/#:~:text=Ctrl%20%2B%20W%20%2B%20N%20%E2%80%94%20Cria,V%20%E2%80%94%20Faz%20um%20split%20vertical

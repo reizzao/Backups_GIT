@@ -1,4 +1,0 @@
-
-run:
-  rodar_arquivo: "go run main.go",
-  rodar_api: "go run main.go",

@@ -1,8 +1,0 @@
-Linguagem:
-representacao_de_dados_Tipos: string, int, float, bool, etc
-entrada_e_de_dados: console, escrita, etc
-processar_dados_ComOperadores: +,-,*,/,<, >,||, &&, etc 
-desvio: if, else, switch
-repeticao: for, while
-declarar_e_chamar_funcoes: de bibliotecas, ou criadas
-manipulacao_de_arquivos: textos, e binarios

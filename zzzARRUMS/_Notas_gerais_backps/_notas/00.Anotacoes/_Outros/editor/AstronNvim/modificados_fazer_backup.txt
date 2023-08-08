@@ -1,4 +1,0 @@
-
-
-modificados_fazer_backup: 
-  arquivo_mapeamento: "~/.config/nvim/lua/astronvim/mappings.lua",

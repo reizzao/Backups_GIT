@@ -1,7 +1,0 @@
-arquivo_mapeamento: "~/.config/nvim/lua/astronvim/mappings.lua",
-
-teclas:
-  tab: "<Tab>",
-  f7: "<F7>",
-
-  
