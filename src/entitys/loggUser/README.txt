@@ -1,1 +1,0 @@
-o loggs emprestado aqui na app é puxado da lib loogs via replica, e aqui ele somente define repositorios.
