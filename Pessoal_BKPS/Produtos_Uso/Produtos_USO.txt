@@ -1,0 +1,2 @@
+fone_ouvido:
+  simples: INOVA , tipo corda, valor: 20,00
