@@ -1,0 +1,34 @@
+
+1. Modificadores_de_acessoPropsParaConfiguraveis :
+
+  1.ladoEstatico:
+  significado: [ fixo/PraGeral/PoloUnico] faz o artefato ser do Pai/Classe e não dos filhos/instancias, acessos:  só acessa metodos com this c props não, acesso sempre pelo nome da classe.,
+  ladoDinamico: acessa props com o this, o this representa as instancias/os filhos.
+
+  1. ModificadoresAcessoGeralConfiguraforesEUtilizadores:
+  ladoEstatico: restrito privado, semiRestrito: protected,
+  ladoDinamico: public (ruim para campos, bom para disponibilizar acoesMetodos)
+
+  "#ferramentas_Logicas :
+    1. conceito: "ferramentas para criar condicoes com operacoes logicas."
+    2. estruturas_para_condicoes: mudancas_de_fluxo: [ "if", "ternario", "switch"]
+    3. operacoes_matematicas: "usam os sinais matematicos + - * %"
+    4. operacoes_logicas: "< menorQue > maiorQue <= menorOuIgual >= maiorOuIgual"
+    5. operadores_relacionais: conceito: todos analisam um operando de cada lado e retornam um boleano [ "OR <OU> operador:|| para ser verdade basta 1 opção ser verdade", "and <E> operador: && para ser verdade todas opções tem que ser verdadeiras.", "NOT <negacao> operador: ! este vem antes da variavelAlvo e inverte seu valor boleano. obs: !! 2 exclamacao inverter o valor de qualquer variavel memso que nao seja boleana e retorna um boleano deste resultado."  ] ,
+
+1. #ferramentas_Visualizacao:
+  1. no_console: [ "system.out.println() no java", "console.log() no js",  "print() no python" ],
+  2. retorno_fisico: [ "return artefato" ,  ]
+
+1.#Array
+  1. conceito: "é uma variavel que armazena dentro de si outras variáveis todas do mesmo tipo, podendo ser acessado estás variáveis via #posicao de índice inicializadosm em posicao0, temos os arrays."
+
+  1. #EstaticoFixoLimitado e #DinamicoSemLimite: [
+    • EstaticoFixoLimitado: definimos seu limite de itens,
+    • DinamicoSemLimite: o unico limite de armazenamento é a sua memória disponível no Pc ou no server, e com métodos Crud, tamanho, comparações entre itens que é o #ideal. ]",
+
+# HERANCA
+1. heranca_Multipla:
+  1. conceito: uma classe pode extender mais que 1 classe.
+  1. linguagens_que_SIM_permitem:  [ Javascript,   ]
+  2. linguagens_que_NAO_permitem: permitem: [ Java,   ]

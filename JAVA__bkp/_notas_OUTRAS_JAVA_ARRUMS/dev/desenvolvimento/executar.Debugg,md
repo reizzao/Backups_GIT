@@ -1,0 +1,5 @@
+
+# Debugger
+
+1. Demarcar em 2 lugares :  Breakpoint onde foi configurado a acao e aonde esta executando-a.
+1. vigiar_artefato: no WATCH/ + para adicionar variaveisVigiar: escrever o nome da variavel e seguir sua sequencia, posso escrever as variaveis params, variaveis result e seguir SETAS Para frente para ver elas sendo preenchidas a cada PASSO.
