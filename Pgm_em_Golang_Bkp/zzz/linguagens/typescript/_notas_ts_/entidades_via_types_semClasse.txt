@@ -1,0 +1,10 @@
+
+detalhes :
+-- O QUE VAI COMPOR OU SERIA METODO COMPUT EM CLASSES - SERA PROPS
+
+-- o que for impl. por funcao na tipagem devolve o tipo que devolvera a funcaoImplements
+
+-- o que devolvera obj - sera na tipagem do tipo do obj
+
+-- O QUE SERIA METODO COMPUT - SERA UMA FUNCAO - PARA SER USADA NA FABRICA DO OBJETO
+

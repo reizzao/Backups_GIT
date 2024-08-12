@@ -1,0 +1,14 @@
+
+// tentando importar metodo assertNotNull mas deu Erro #TODO
+import org.junit.jupiter.api.Assertions.assertNotNull;
+
+class CreateClienteControllerTest {
+
+	public void should_be_create_cliente_controller() {
+    CreateClienteController action = new CreateClienteController();
+    Cliente result = action.execute();
+
+    assertNotNull(result.nome);
+	}
+
+}

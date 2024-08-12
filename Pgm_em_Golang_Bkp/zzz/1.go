@@ -1,0 +1,4 @@
+package zzz
+
+func Foo() {
+}

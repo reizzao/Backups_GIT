@@ -1,0 +1,12 @@
+fluxo_objeto_entidade :
+objetivo: ter objeto representacoes da entidade
+- criar o Contrato com struct como sera o objeto
+ formas_de_dar_valor_aos_campos:[
+  - valorPrimitivo_SemVariar: se os campos tiverem somente um valor fazer ContratoNormal,
+  - valorPrimitivo_Variavel: Se o valor for opcoes fazer Contrato_Enum,
+  - se o valor for objeto_Variavel: fazer interface_Golang para dar este valor dinaicamente em objeto.
+
+- fazer funcao que recebe e cria o objeto no formato definido no Contrato, posso receber o seed, ou request.
+
+
+-

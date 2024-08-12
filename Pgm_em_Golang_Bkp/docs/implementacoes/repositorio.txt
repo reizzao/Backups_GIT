@@ -1,0 +1,18 @@
+
+Fluxo_Padrao_Repositorio :
+
+conceito: Serve tanto para EntidadePrincipal quanto para Repositorio da EntidadePrincipal
+
+resumo: - contratoPrincipal_SomenteCampos (sera preencido por seed | request) - contratoRepositorio (Somente campos ex: items) - metodos contrato acoes da interface do Repositorio depois implemenat estes metodos) - usofinal (instancia o repositorio e usa seus metodos.)
+
+detalhado:
+
+- 1º : cria o contrato - somente com os campos que terá // uso: instancia o contrato :: criando funcao que instancia o contrato e devolve esta instancia.
+
+- 2º : metodos: cria a interface com as acoes que as instancias terao // uso: implementa poliformicamente do seu jeito cada acao definida no contrato de interface
+
+- 3º : depois usa os metodos no tester | main | test :: 1º instanciando a funcao que instancia a EntidadePrincipal -> depois com este obj em mao usa seus emtodos as acoes de repositorio.
+
+---
+
+

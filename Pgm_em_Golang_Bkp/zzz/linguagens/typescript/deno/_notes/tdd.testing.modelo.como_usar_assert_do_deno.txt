@@ -1,0 +1,79 @@
+// deno-lint-ignore-file no-unused-vars
+import { expect } from "https://deno.land/x/expect@v0.2.10/expect.ts";
+
+function funcaoAlvo(data: unknown) {
+  if (data == 10) {
+    throw new Error("Ops")
+  }
+  return "Ok"
+}
+
+const obj1 = { foo: "foo", bar: "bar" }
+const obj2 = { foo: "foo", bar: "bar" }
+
+// TESTS
+import {
+  assert, assertThrows, assertEquals, assertExists,
+  assertInstanceOf,
+  assertStringIncludes, assertArrayIncludes
+
+} from "https://deno.land/std@0.219.0/assert/mod.ts";
+
+// AFIRMA TER LANCAMENTO DE ERRO
+Deno.test("Deve lançar erro [$1] na () => .", () => {
+  assertThrows(
+    () => { funcaoAlvo(10) }, Error, "Ops",
+  )
+})
+
+// AFIRMA SER IGUAL
+Deno.test("Test Assert Equal Fail Custom Message", () => {
+  assertEquals(1, 1, "MENSAGEM PERSONAL");
+  assertEquals(obj1, obj2, "MENSAGEM PERSONAL ERRO CLI NO CONSOLE");
+});
+
+// AFIRMA SE É TRUTHY VERDADEIRO
+Deno.test("Test Assert", () => {
+  assert(1);
+  assert("Texto");
+  assert(true);
+  // assert(undefined, "ESTE VALOR NAO É TRUTHY");
+
+  expect(undefined).not.toBeTruthy()
+});
+
+// O assertExists pode ser usado para verificar se um valor não é null ou undefined.
+Deno.test("Deve existir [$1]", () => {
+  const naoTenhoValorVerdadeiro = null
+  assertExists("Denosaurus");
+  assertExists(false);
+  assertExists(0);
+  // assertExists(naoTenhoValorVerdadeiro); // vaiQuebrar
+  // assertExists(null);// vaiQuebrar
+});
+
+// AFIRMA A INSTANCIA
+Deno.test("Deve ser instancia de [$1]", () => {
+  const variable = new Date() as unknown;
+
+  assertInstanceOf(variable, Date);
+
+  // variable.getDay();
+});
+
+// Existem dois métodos disponíveis para afirmar que um valor contém um valor assertStringIncludes()e assertArrayIncludes().
+
+// assertStringIncludes avalia se existe no texto as letras
+Deno.test("Test Assert String Contains", () => {
+  assertStringIncludes("Hello World", "Hello");
+});
+
+// A assertArrayIncludes()afirmação é um pouco mais avançada e pode encontrar tanto um valor dentro de um array quanto um array de valores dentro de um array.
+
+Deno.test("Test Assert Array Contains", () => {
+  assertArrayIncludes([1, 2, 3], [1]);
+  assertArrayIncludes([1, 2, 3], [1, 2]);
+  assertArrayIncludes(Array.from("Hello World"), Array.from("Hello"));
+});
+
+export default 1

@@ -1,0 +1,22 @@
+-- UNIVERSAL ------
+
+-- By Linguagem ----
+Metodo: para ter acesso aos campos do Molde o This sera a variavel dentro de aprenteses depois da clausula func ex: (f *Foo) este f é o this.
+
+PoloUnico_do_Valor_Na_Memoria : em go é chamado de Ponteiro.
+Modificando Ponteiro:
+Depois de instanciado se o This vier de um Ponteiro do Tipo - ao mudar o valor neste escopo de metodo ele mudara em todos lugares este valor - senao for um ponteiro vai mudar só no escopo deste metodo sem refletir para fora.
+
+ARRAY
+- Pegar posicoes do array
+===
+em js :
+const array = [ 10, 20, 30, 40, 50 ]
+
+const ultimoItem = array[array.length -1]
+      console.log(ultimoItem)
+
+// formula: pegar primeira e ultimo item do array : conceito coloque na posicao desejada a posicao que quer pegar
+// pegarPrimeiro: arrayAlvo[0]
+// peagr_a_Ultima: será (comprimento da fatia - 1) arrayAlvo[ arrayAlvo.length -1] // obs: no arrayalvo coloca a posicao desejada que é o tamanho deste proprio array -1
+===

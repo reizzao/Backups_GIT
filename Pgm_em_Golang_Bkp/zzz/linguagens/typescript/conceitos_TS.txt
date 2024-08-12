@@ -1,0 +1,8 @@
+
+executar_de_uma_funcao_pode_ser_indefinida: ira tentar executar undefined, com o erro: Cannot invoke an object which is possibly 'undefined
+solucao: diga que pode ser indefinido com ? depois abra com .
+sintaxe: `objeto?.funcaoDesejada?.()`, exemplo: `when?.showNomeCompleto?.()`
+
+extender_tipos_sem_inserir_chaves: ideal para extender prototype, é só amndar o Tipo principal extender o tipo que contem as props desejadas.
+exemplo: `IClienteFisico extends ClientePrototypes`
+

@@ -1,0 +1,12 @@
+
+Deno.cwd() : devolve uma string com o path absoluto no pc onde esta funcao foi executada, ideal para enfatizar local do arquivo em uso.
+
+new TextDecoder().decode( codigoEmAsc ) = devolve uma string, decodificando o codigo em Asc para utf-8
+
+modulos semelhantes fs do node para deno : https://docs.deno.com/deploy/api/runtime-fs
+
+-- MANIPULAR ARQUIVOS JSON
+readfile do node para o deno : https://docs.deno.com/deploy/api/runtime-fs#denoreadfile
+
+1º ler o arquivo vai retornar o arquivo em ASC com : Deno.readFileSync( string endereco do arquivo )
+
