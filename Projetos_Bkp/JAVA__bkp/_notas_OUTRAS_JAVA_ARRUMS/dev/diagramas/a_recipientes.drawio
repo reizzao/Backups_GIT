@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="0RKaPLuFoDQMD4A6DjN7" name="Page-1">
+        <mxGraphModel dx="1070" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="450" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" value="espaco_Memoria" style="html=1;verticalAlign=top;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="10" width="440" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="recipiente_objeto" style="html=1;verticalAlign=top;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="40" width="355" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="espacoMemoria" style="html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="recipiente_variavel" style="html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="62.5" y="70" width="177.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&quot;valor_Primitivo_1&quot;&lt;br&gt;tipo: String" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="96.25" y="110" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="470" y="80" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="recipiente_variavel" style="html=1;verticalAlign=top;" parent="18" vertex="1">
+                    <mxGeometry width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&quot;valor_Primitivo_1&quot;&lt;br&gt;tipo: String" style="html=1;" parent="18" vertex="1">
+                    <mxGeometry x="32.32394366197183" y="24" width="105.35211267605632" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="470" y="180" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="recipiente_variavel" style="html=1;verticalAlign=top;" parent="27" vertex="1">
+                    <mxGeometry width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&quot;valor_Primitivo_1&quot;&lt;br&gt;tipo: String" style="html=1;" parent="27" vertex="1">
+                    <mxGeometry x="32.32394366197183" y="24" width="105.35211267605632" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="404" y="280" width="320" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="recipiente__proto__" style="html=1;verticalAlign=top;align=left;spacingLeft=5;" parent="42" vertex="1">
+                    <mxGeometry width="320" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="group" parent="42" vertex="1" connectable="0">
+                    <mxGeometry x="10" y="57" width="142.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="recipiente_Metodo_1" style="html=1;verticalAlign=top;fontSize=10;" parent="38" vertex="1">
+                    <mxGeometry y="-21" width="142.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&quot;&lt;font style=&quot;font-size: 10px;&quot;&gt;valor_Primitivo_1&lt;/font&gt;&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;tipo: String" style="html=1;fontSize=10;" parent="38" vertex="1">
+                    <mxGeometry x="18.57394366197184" y="-1" width="105.35211267605632" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="recipiente_Metodo_2" style="html=1;verticalAlign=top;fontSize=10;" parent="42" vertex="1">
+                    <mxGeometry x="167.5" y="36" width="142.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&quot;valor_Primitivo_1&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;tipo: String" style="html=1;fontSize=10;" parent="42" vertex="1">
+                    <mxGeometry x="198.57394366197184" y="59" width="105.35211267605632" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

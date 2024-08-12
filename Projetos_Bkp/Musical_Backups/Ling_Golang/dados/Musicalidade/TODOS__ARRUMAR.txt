@@ -1,0 +1,557 @@
+
+
+=====
+
+COMPOR ARRUMAR COM MUSICALIDADE
+
+# musicando_versos
+
+
+---
+=====
+
+
+
+==============
+
+dicas_valiosas : [
+"Melodia martelo suba e desca notas mas tudo voltando pzra a base1",
+"Faca a parte B diferente da A, nao comece ela com a mesma nota que comecou a A, faça menos acorde na B, se usou 2 tempos na A, mude o compasso deixe mais suspenso use 4 tempos psra demorar mais o compssso.",
+
+"Midi sao sons do piano virtual digital.",
+
+"Cadencia é as trocas entre funcoes , tutorial : https://youtu.be/4acqJlvXiog?si=evcKjF8uISd78MTd",
+
+]
+
+Rimas:
+conceito: "rime finais boca aberta com aberta, fechada com fechada.",
+
+vogais_aberta : "A E O",
+vogais_fechadas: : "I U",
+
+Refrao : [
+"Refrao :é os 80% da conexao aprovacao, tutoriais: "https://youtu.be/5WierEgWLFU?si=9HACThgCRnhqz79Z",  ",
+
+"Refrao pequeno simples e objetivo.",
+
+"Use Notas altas e longas : se caber inicie Alto nas Alturas, utilize notas longas com mais foco em Maiores,  use verbos,  "
+
+"Repita palavras fica mais facil decorar.",
+
+"use o titulo da musica no refrao.",
+]
+
+========
+
+Sentimentos_notas:
+ ComSetimaDeSubPrepara: [ "Vai contar algo novo", "Mudanca de direção ", "Estou ...", "É algo?,, São ..., Que, Tenho, De, Neste, E nem, ", "Certas...", "Esqueça ..",  ]
+
+Producao :
+"gravacao grave por trechos, [ introducao, partesA, B, etc, nao precisa gravar tudo de uma vez. ",
+
+
+=======
+
+MUSICALIDADE
+
+base_global: [
+"O MELHOR FUNDAMENTO É JEITO TATICA, E NAO ESFORÇO.",
+"",
+]
+
+percepcao: [
+1 ouve ,
+2 entende
+3 executa
+4 nas foque em alturas, a partir dd uma deferencia perceba o movimento se foi para grave ou agudo, use escada tom pra cima (agudo) e tom pra baixo (grave) a partir da referencia
+]
+
+estudar_memorizar : [
+metrica,
+silabas_poeticas,
+
+]
+
+
+
+
+Agilidade_na_musica :
+Subindo_decendo : notas https://youtu.be/65gifpYd8rU?si=RkvXonlBMqDmPYbu
+
+Compor:
+- preparacao_compor : [
+ 1 definir tema
+ 2 vai comecar falar de quem
+ 3 criar melodia cantarolando
+ 4 transportar melodia em notas para instrumento
+ 5 encaixar em voz a melodia
+6 gravar no bandLab online, deixar tudo guardado online seguro, regustrar por email, youtube, distribuir.
+
+]
+
+Harmonizar:
+
+
+
+Vogais_Verso_com_notas :
+   conceito: "suba e desca NOTAS alternadamente conforme vogais final de verso . ex: final frente no procimo use nota pata traz para vogal atraz. Ex: musica Nosso Quadro - Ana  Casteli "
+
+   vogais_frente: [ A, E, U ]
+   vogais_voltam: [ Ó, I, ]
+   Importante : "pode usar esta regra no baixo de inicio, e inverter no alto de refrao... o importante é que esses versosVogais nao se misturam combinam melhor em momentos separados.",
+
+Sacada: "estas relacoes ajudam tirar de ouvido voce percebe quando apartir de um acorde o outro subiu foinpra frente ou desceu foi para traz."
+
+  exemplos : [
+"Nosso Quadro : https://youtu.be/2jjKJDIQa2w?si=Pb0dccI3cOSCtLh0",
+"",
+"",
+]
+
+Funcoes:
+Dominante :
+  Diminuto: "posso aplica-lo com saltos de 1,5  tom e meio tanto para traz como para frente"
+
+Versos:
+
+ Rimas : o verso tem versoInicio+ versoConclui, uma parte tem 2 versos, os versosInicio podem ser livres NAO RIMAR, mas os versosConclui é recomendado rimar( versoConclui/ versoConclui )
+
+  Alternar_Nuance_terminacoes_versos: "Se um verso termina alto, outro verso termina baixo",
+
+conforme_sentimento :
+  Se_comecar_triste: "primeiro verso comeca Baixo",
+
+  Se_nao_comecar_triste: "primeiro verso comeca Alto",
+
+conceitos_de_importancia : [
+"O coração da harmonia sao 1° 4° e 5° grau .. o restante sao efeitos pra terminar frase(relativosMenores), destaque_Embelezamento ( emprestimosModais )",
+
+"",
+
+"",
+]
+
+Rimas_que_combinam :
+  rima: { umaParte: "E" , outraParte: "O (HU)" }
+  rima: { umaParte: " " , outraParte: " " },
+  rima: { umaParte: " " , outraParte: " " }
+  rima: { umaParte: " " , outraParte: " " }
+
+
+Escolher_tom :
+C : [ Querer, desejo,  ]
+E :  [ Pedido, ]
+
+
+
+campo_harmonico :
+  MenorHarmonica : pega o 6grau de um tom este é o relativo entao esre relativo tera a semelhanca deste tom originário ex: cp de Am é igual o de C .. inclusive o 5grai Dominante sera com 7setimaMenor para Tensionar
+
+Tutoriais : [ " https://youtu.be/LgE4DvUXRhU?si=gEC1VJP_6g5tjEcc ", "", ]
+
+para_compor_ou_tirar_musica :
+
+strategias_progressao:
+  - martelo : [ TOM - outroGrau- Tom  - novoGrau - Tom ]
+ - menor_modula : [ menor - modula - menor - Maior  ]
+ -
+
+
+
+  respirar: "puxe o ar pela boca e nariz nos intervalos TIPO SUGAR macarrao.",
+
+exercicios_preliminares: [
+  primeiro_limpar_garganta : de manhã  som de zzzzzz,
+ram_ram: "cantarolar RAM RAM RAM RAM",
+
+som_helicoptero : "igual criança Bruum, bruum, bruum",
+
+"Nao feche a boca Sorria (Só no intervalo) .. pense estar com caneta impexindo fechamento da boca, respire nos intervalos."
+
+]
+
+
+
+COMBINAM VOGAIS
+conceito :
+A: som_de: "RÁ", [  preparasComSetimas,   ]
+E: som_de: "RÉ",  [  ],
+I: som_de: "HI",  [  ]
+O: som_de: "RÓ",  [  ]
+U: som_de: "RÛ", [ dm, ]
+
+Definicao_melodia :
+Sofrendo:
+  Se_for_EU_sofrendo : melodia triste
+  Se_for_OUTRO_sofrendo : melodia alegre
+
+Definicao_versos : "um verso falando de cada participante do tema."
+
+cada_verso: "cada verso fale de uma situacao diferente.",
+
+  Refrao:
+  Estrategias :
+   estrategia_puxa_refrao_use : [ "verbo", ]
+
+    estrategia_uma_silaba_por_nota_Maior : "comecar em menor puxando o refrao, depois poucas silabas e para cada silaba uma nota Maior."
+
+
+comeca_em_tonica1 : silaba TONICA, metrica:
+comeca_em_ComSetima : silaba DITONICA
+
+metrica:
+TONICA É PRA CIMA ABRE A BOCA ..ex: [ ÃN, I, U ], já ATONO É PRA BAIXO FECHA BOCA ex: termina com [ E, O, ]
+
+canto : "canto_muito_triste"
+   tom : "menor", voz: "estica melancolico",
+
+canto : "canto_muito_alegre"
+   tom : "maior", voz: "curta serena",
+
+
+letra_combina_nota_determina_nota: "percebo que combina é a ultima vogal do CARRETAO/POESIA_CANTADA ou se a primeira SILABA_FOR_TONICA ou PRIMEIROVERSO_CANTADO_E_PAUSADO e nao somente a ultima vogal do verso todo. Ex: [ QUERU*..SENTIR DE NOVU*( SOL), DEREPENTEVEIOUMAVONTADEDETEOLHA* (LA)", MÁ*GOA CURTIDA (LA muito triste La menor) ... obs: depois da TONICA nao importa combinar DIATONICA porque ela é a caida do nuance BOCA FECHANDO cabequalquer notaCaminho pra funcoes VERBOS( comSetima_de_Preparacoes, Tensao ou notaMenor )
+
+acordes :
+  conceito: "triade forma o acorde com 3 notas fundamentais( tonica_TOM, terca_Quase_SubDominante_Continua, quinta_Dominante_TENSA ). Já a tretrade insere-se a quarta nota sendo a SETIMA da eacala onde dsfine o SENTIMENTO que sera ALEGRE( setimaMaior_MENOS_setimaMenorsetimaMaior_MENOS_MEIO_TOM_distanciaMenos_Menos_1_TOM_distanciaMais)  ",
+
+sentimento_Compor:
+  nao_alegre :
+    pouco_triste : Menos_MEIO_TOM ( acorde_Maior_setima )
+    muito_triste : Menos_1_TOM ( acorde_Menor_setima )
+
+alegre :
+  pouco_alegre: Mais_MEIO_TOM ( acorde_Maior )
+    muito_alegre : Mais_1_TOM ( acorde_Menor  [ relativoSustenido ou o 2 que é o proximo da escala em menor )
+
+
+  triade :
+   Importante : "entre Maior e Menor a tonica e a quinta sao iguais o que muda é a TERÇA, entao pra transformar o acorde maior em menor basta voltar MEIO TOM na TERÇA",
+tutorial_importante: [ "https://youtu.be/BYgPWNE0z78?si=9Ci0RDI6J6J2fdI6", ]
+
+    Maior:
+       formacao: 135 tonica, tercaMaior, quinta
+       saltos_tom : [ 1 , 2, 1.5 ],
+
+   Menor:
+       formacao: 135 tonica, tercaMenor, quinta
+       saltos_tom : [ 1 , 1.5, 1.5 ]
+
+tretrade :
+  conceito: "pega 1-3-5-7setima que é sempre O ULTIMO TOM DA ESCALA ... formando a setimaMaior para acordeMaior onde esta setima é: (OTOM_MENOS_MEIO_TOM) - e - a setimaMenor para acordeMenor que é : ( OTOM_MENOS_1_TOM )",
+
+   Importante : "entre Maior e Menor a tonica e a quinta sao iguais o que muda é a QUARTA, entao pra transformar o acorde maior em menor basta AVANÇAR 1 TOM na QUARTA",
+tutorial_importante: [ "https://youtu.be/BYgPWNE0z78?si=9Ci0RDI6J6J2fdI6", ]
+
+    Maior:
+      detalhe: "a setima dele mesmo distancia menos MEIO_TOM - menos_tristeza",
+       formacao: 1357 tonica, tercaMaior, quinta, setimaMaior( OTOM_MENOS_MEIO_TOM )
+
+
+   Menor:
+    detalhe: "a setima dele mesmo distancia mais 1_TOM, mais_teisteza",
+       formacao: 1356 tonica, tercaMenor, quinta, setimaMenor( OTOM_MENOS_1_TOM )
+
+
+troca_acordes:
+  conceito: "Troca de acorde na ultima silaba da primeira parte do verso antes da parte de conclui-lo",
+  exemplos: [
+"Derepente veio uma vontade / de te olhar",
+"magoa curtida / sempre traz / a dor",
+"",
+]
+
+estrategias_harmonizacao :
+  Fechar_Estrofe: [
+"aplicar IImenor no lugar da Dominante, ex: em C usar dm, em gm usar am para fechar ou ante fechamento depois dela procurar o fecgamentiSimples ja vai para preparo do fechamento simples ex: para gm vai pra am g7 cm d7 , ex: musica Desritmia do Martinho.",
+],
+
+sensacoes_sonoras_graus_primordais :
+  primeiro_grau_tonica : "1grau tá  no pontoPartida",
+
+  quarto_grau_subDominante: "4grau ainda ta no nivel só que com mais peso",
+
+  quinto_grau_dominante: "5grau subiu tensionou",
+
+Identificar_Sons:
+  maior: o maior tem som GRAVE , aplicar_para: [ alegre, ] canto_de_forma: [ Seria, Cueto e Grosso , Encorpada, Seco ]
+
+  menor: o menor tem som AGUDO, aplicar_para: [ triste, ], canto_de_forma: [ Fina, Esticada, Sofrida,  ]
+
+focar_para_escolher_nota_e_cantar : [
+  - usar funcoes Grave e Agudo iguais pra nota e voz,
+  - usar distancias Intervalos Nota conforme Voz Perto nota perto Longe nota longe,
+-  voz  modelar : Grave é Ovo Mista, Agudo abre mais joga pro Ceu da boca.
+
+]
+
+Tom_Peso_RegiaoCanto :
+  conceito: "essas props servem pra saber quando dosar a regiao do canto e usar o peso Fraco, Medio, Forte, exemplo musica Pedacos.",
+
+  Fraco : [ Tons Menores ]
+  Medio : [  C D E ] canto: ja sai mandando pra fora.
+  Forte : [  F G A B ] canto: puxa engole pra dentro.
+
+altura :
+  conceito : "props usadas para NUANCES ondas nas SILABAS canto",
+
+  subiu__AGUDO :
+  nao_mudou__MEDIO :
+  desceu__GRAVE :
+
+Intervalo:
+conceito: Conforme a distancia do Grau espere pra cantar a nota.
+
+---
+usando_fraco_medio_forte_AGUDO_GRAVE
+  fraco: grave: 1m, agudo: 5M
+  medio: grave: 1M , agudo: 3m
+  forte : grave: 4M, agudo: 6m
+
+---
+Efeito_harmonico_em_notas :
+
+Emprestimo_modal:
+  conceito: "pega emprestado de outro campo harmonico uma nota de tensao ou relaxamento para dar um efeito de brilho mudanca Mais vida ou mais sofrido."
+
+transmite_sentimento_de : [ "SURPRESA", "FECHAMENTO_VERSO", ]
+
+aplicabilidade : "espere um tempo a mais na nota antes para preparar e aplique.",
+
+Onde_aplicar : [
+"aplique na parteConclui o Verso",
+"Nao é muito legal aplicar na primeira parte do verso ele tem que ser SURPRESA para fechar.",
+"",
+]
+
+estrategias: [
+"quintoSustenido :  usa o V# usa sua Dominante_Sustenido no lugar do 4grau com o 5grau.",
+
+"UmTom_2Casas_Como_Dominante :  para terminar ao invés da dominante usa o 1TOM_ABAIXO_2CASAS ou 4° do 4° em MAIOR, exemplo: em C use como fechamento o Bb",
+
+"UmTom_2Casas_Como_SubDominante : aplicar 1TOM_ABAIXO_2CASAS no 2 grau no lugar do SubDominante, exemplo: em C no lugar  do < dm > usar o < Bb > ",
+
+"",
+]
+Tutoriais : [
+"https://youtu.be/pGLQX8SJxxc?si=p8_4pBa3kaLG7-zr",
+"",
+]
+
+---
+
+Links
+
+percepcao_Musical
+
+Treino_percepcao : https://youtu.be/0VDk4VxObz0?si=IV7itJT_m4PuUwFg
+
+titulo : reconher acorde : https://youtu.be/B3Zb14VBxfA?si=D9HWweKFXDOVbzvx
+
+Tocar_de_Ouvido:
+  tutoriais: [
+CanalViolaoeGuitarra https://youtu.be/Kf6gQ9l2MN4?si=DkIMpaFcCG2jDiU0,
+
+]
+
+estrategia :
+  alternativas: [ 1 funcaoTonica, 2funcaoFundamental, 3FuncaoSubdominante ]
+
+Conceito: "Se ja eata usando uma funcao a proxima a ser usada é outra funcao, esta dica é tambem pra #compor, use uma funcao de cada vez com seu Maior ou Menor_Relativo que faz a mesma funcao.",
+
+funcaoUm_TONICA_1grau_Encontrar_tonica : "ja achou o tom."
+
+proximaFuncao: "Ou é funcaoDominante_5grau ou funcaoSubDominante_4grau",
+
+---
+Exercicios_Notas :
+conceito : passo1 : toque sentindo as notas com palavras PÃN para sentor a sonolidade a sensacao que transmite as notas,
+passo2 : toque em todas tonalidades, percebera que o sentimentoPassado é o mesmo o que aumentara é o Volume conforme escala CDEFSLS .
+
+treinar_progressoes:
+  um_cinco_seis_quatro_1564 : Notas: C G F am, categoria: grande_intervalo
+
+  um_dois_quatro_cinco_1245 : notas: C dm F G, categoria : intervalo_curto,
+
+---
+Cantar_referenciando_triade: posso comecar cantando o tom iniciando em qualquer nota da triade que forma o acorde ou seja no 1, 3 ou 8oitava.
+---
+Cadencias
+conceito: "Organiza as sequencia que vai andar em funcoes tonica subDominante dominante dentro delas usa CADENCIAS que é escolher o grauAltura da funcao que vai usar ... por exemplo Tonica vou usar o 1grau ou 3 ou 6 grau de tonica, quero evoluir continuar sem fechar vou pra subDominante que grau dele vou usar os relativosMenor de sub que sao grau 2
+
+resolucoes_para_funcao : resolver em outra funcao é mudar a funcao.
+
+ Dominante resolve com Tonica, SubDominante posso progredir, posso fazer a mesma funcao mais que uma vez mas quando sair dela sigo pra outra ex: 1645 (T T T D)
+
+sequencia_de_Movimentacao_de_Sensacao_em_Funcoes :
+  FuncoesDesensacoes: [ tonica, subDominante, Dominante ]
+
+  - T tonica = 1maior_ou_3_e_6_relativoMenor,
+  - SD subdominante = 4maior_ou_2relativoMenor, D dominante   5 e 3relativoMenor
+- relativoMenor é para continuar caminhando construindo.
+- os Maiores sao para ResolverTerminar posso terminar [ distante_4SD_SubDominante, tenso_5D_ Dominante, relaxadoNoTom_1Tonica ]
+
+  sd_d_t_251 : SD D T
+
+  sd_d_t_451 : SD D T, exemplos: [ La Bamba, Twist and shout, ], aplicado: [ mpb, pop, jazz ]
+
+t_t_t_d_1645 :  movimentacao: "extendeu a sensacao tonica em 3 acordes, distanciou em subDominante e resolveu na tonica". ,exemplos: [ escrito nas estrelas,  ]
+
+t_t_sd_d_1625 : movimentacao: "extendeu tonica em 2 acordes pra fechar caretinha usou subDominante com dominante",  fama: "quadradinho sem setima na primeira preparacao.",
+exemplos: [ madalena meu beijo percebeu, Onda olha a Onda ]
+
+t1_sd4_d5__145 : movimentacao: "",  fama: "", exemplos: [ "renova-me senhor jesus ", "", ]
+
+---
+Compondo:
+  conceito : contar rimas no dedo, cada frase conta 1, cada frase 2 notas , pode ser para cada fease sensacaoInicio + sensacaoFim ex: { C am } na primeira, { C F } na segunda estas 2 ainda nao rimam ... sua rima é na repeticao dentro desta parte, ex: musica Por deus tudo acabou
+
+verso_1 :
+  {
+      frase_do_Acontecimento,
+      consequencia_do_Acontecimento
+  }
+
+combinacoes: {
+  nota_com_acoes: {
+
+acao: "quando acontece ISSO...o resultado é ...", exemplos: ["no seu rosto a imensidao- O vento a soprar", "Vem sentir que a emocao -vaga pelo ar" ] tipoNota: "graus 141", uso: [ "muito para inicar comecar musica",  "para explicar fenomenos Viajens na parte C", ]
+
+    acao: "verbo em UM, UMA, ALGO  ", exemplos: ["ouvir uma", "beijar um" ] tipoNota: "nota MENOR depois segue com 7setima",
+
+acao: "verbo", exemplos: ["", "" ] tipoNota: "nota com 7°setima",
+
+acao: "ligacoes", exemplos: ["Que", "Com" ] tipoNota: "nota Maior segue para com 7setima",
+
+
+  acao: "Dois verbos seguidos", exemplos: [ "fazendo sentir" ], tipoNota: "nota com 7°setima aberta e fecha tipo SUS e fecha na 7setima",
+
+    acao: "apontar algo",  exemplos: [ "o algo..., o gosto", ], tipoNota: "nota com 7#°setima Sustenido ate fechar na com 7setima"
+  },
+
+}
+
+combinacao_nota_com_letra :
+  A : [ "LÁ", "" ],
+  E : [ "SI", "" ],
+  I : [ "C#", "" ],
+  O : [ "RE", "" ],
+  U : [ "MI", "" ],
+  S : [ "", "" ],
+
+===
+Musicas_referencias:
+  Oa Oa,
+  Por Deus tudo acabou
+
+===
+
+
+]
+
+===
+Compor :
+
+RIMAS :
+estrategia_A:
+  centro_Rimal: "A",
+  rimal_segundario_Sacada: "U",
+  rimal_terceiro_do_GritoRefrao : "I",
+  rimal_quarto_baseRefrao: "I"
+  referencias : [ "Canudinho", ]
+
+PARTES
+partes_fundamentais : [
+1__O_Que_Esta_ACONTECENDO, 2__Grande_Porque_Problema,
+3__SOLUCAO
+]
+
+===
+
+parteA :
+  conceito: [
+ "O bloco_Acontecimento terá um fato que repete no mínimo 2 vezes e por ultimo vem com a sacada do bloco. ",
+"motivo_consequencia é oQueAcontece explique pergunte-se O QUE ou ExpliquePORQUE",
+]
+
+importantes : [
+ "comeco e mantenha grave tonico este bloco",
+ "sentimento : se falar de SiProprio é um pouco triste, se falar de outraPessoa é um pouco mais solto",
+"a sacada do bloco pode ter efeito como de emprestimoModal ex: do Luis Amstrong ",
+]
+
+bloco_Acontecimento : {
+  fato : {
+    oQueAcontece : " "
+    motivo_consequencia : " ",
+   },
+
+   fato : {
+    oQueAcontece : " "
+    motivo_consequencia : " ",
+   },
+
+  sacada_deste_bloco : " ",
+
+---
+Preferencias :
+quer_falar_palavrao : "#codigo : FALE EM OUTRA LINGUA",
+
+===
+Compondo :
+
+bloco_musical :
+  parte: "A"
+  missao_informar : "acontecimento"
+  blocos_forma: [ abre:  "acontecimento", fecha: "consequencia" ]
+  sacada: "DIZER O ACONTECIMENTO SEM DAR A SOLUÇÃO FINAL"
+  conducao: "GRAVE BAIXO SENTINDO O TOM"
+
+implementacao: [
+  1 - definir_tom : qual a vogal que terminara o primeiro verso -- ai esta o tom () -- dica:  preperir comecar biaxo em menor sentindo o tom.
+
+   - esta_sera_vogal_central_rima ( ),
+
+   - ultima_vogal_primeira_frase_cantada : [
+()se for diatono comece na preparacao  baixo zumbido  ,  s
+
+   e for tonica_a  pode comecar cantar na nota 1 tonica()
+]
+
+ - sentir_tom : mesmo em nuances sintir-se respirando dentro da bolha do tom
+
+ - nuances : "baixo_e_alto - [ incio_blocoverso_acontece : baixo, sentindo tom,  bloco_conclusao: começa ou termina alto, efeitos termina ao contrario do que começou"
+
+]
+
+====
+Criatividade_Harmonizar
+Resolucoes:
+  resolver_fim_frase :
+    nome: "1 - 1com7 - 1", exemplo: "cm C7 cm"
+
+Menor:
+  [
+" 1com7 - 1, ex: cm C7 cm " ,
+" 2 5s 1Ms 2s 2 , ex: dm C7 D7 dm "
+]
+
+Maior : [
+1M 1m 1M, ex: G gm G,
+
+parte_B:
+subir para o 4 grau,
+
+]
+
+===
+
+Links :
+campos_harmonicos : [ "https://www.descomplicandoamusica.com/acorde-de-emprestimo-modal/", "tabelas : https://drive.google.com/file/d/1gupW7OTXGNEiu3t9DqY47OtgwP34tzwb/view?usp=sharing", "",]
+
+notas_resolucoes_e_preparacoes : https://juarezbarcellos.com/2015/02/21/acordes-resolucao-e-preparacao-em-harmonia/
+
+Afinacao : a corda tem aue soar o som continuo sem balancarcai esta afinado, tutoriais: ["melhor afinacao Guima https://youtu.be/A-3n1JBueFY?si=FG1QUw5HoyqYbOdo", "", ]
+
+Aulas importantes
+ "Agilidade com o Guima  https://youtu.be/65gifpYd8rU?si=RkvXonlBMqDmPYbu"

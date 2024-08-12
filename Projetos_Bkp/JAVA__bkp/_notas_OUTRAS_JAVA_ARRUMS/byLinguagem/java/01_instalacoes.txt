@@ -1,0 +1,44 @@
+
+# instalar_plataforma :
+  1. conceito: todo sistema operacional tem o gerenciador de pacotes [ linux: sudo, mac: brew,], usar o gerenciador de pacotes apra instalar o openJDK do java no pc.
+  1. instalando com sudo: TUTORIAIS [
+    https://www.cherryservers.com/blog/how-to-install-java-on-ubuntu,
+    https://www.youtube.com/watch?v=Z3m97JsCSmo,
+  ]
+    1. passos: ```
+    sudo apt-cache search openjdk
+    sudo apt-get update --fix-missing // para corrigir erros do sistema - pode ser antes ou depois do openJdk
+    sudo apt install openjdk-17-jdk -y  // obs: o java LTS esta em 20 em 2023 -- e o openJDK esta em 17
+    java -version // tem que mostrar o jdk na versão alvo ex: openjdk version "17.0.8" 2023-07-18
+    sudo apt update
+    // configurar java padrao do linux:
+    sudo update-alternatives --config java  // pressione 1 - para deixar a versao manual.
+    // Mostra o caminho do JRE do java instalado
+    sudo update-alternatives --config java  // - ENTER
+    // caminho do java é : /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+    // definir variavelAmbienteJava para o sistema reconhecer o caminho de comandos do Java:
+    sudo nvim /etc/environment
+    OPS TALVEZ NAO PRECISE VAI MEXER COM O JAVA DO SISTEMA - ENTAO DEFINIR NO BASHRC mesmo a var JAVAHOME
+    //
+    // colar o caminho da variavelDeAmbienteJava
+    JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+    // propagar o bash -- e conformar se a var JAVAHOME esta apontando certo pro binario da jdk
+    echo $JAVA_HOME
+
+
+baixar_plataforma: {
+  direto_da_retentora: "baixe da Oracle : https://www.oracle.com/br/java/technologies/downloads/",
+
+}
+
+sdkMain: {
+  via_script: "sdk main depois abra e feche terminal e ```sdk version```, sdkMain: https://sdkman.io/install,  tutorial: https://www.youtube.com/watch?v=JQPVAdLKqK8",
+
+  escolher_versao: "sdk list java",
+  passos: "escolher do provedor Java.net -- a versao do java estara na ultima fileira, escolhi neste momento a 22.ea.11-open - FECHE O COMANDO TERMINAL letra <q>",
+  instalar: "```sdk install java VERSAO_COPIADA``` ex: sdk install java 22.ea.11-open"
+  Variaveis_de_ambiente_Linux: "O sdkMain ja configura automaticamente as variaveisDeAmbiente pra Sisitema enxergar o /bin do java instalado.",
+  conferir_versao_e_java_no_Path: "java --version",
+}
+
+rodar_qualquer_arquivo_compilado_ponto_jar_na_pastaPassada: ```java -jar target/*.jar```

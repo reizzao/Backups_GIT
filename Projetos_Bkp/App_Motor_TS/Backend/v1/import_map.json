@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@/": "./src/",
+    "@data": "./src/data/_index.ts",
+    "@model": "./src/model/_index.ts",
+    "@repositories": "./src/repositories/_index.ts",
+    "@services": "./src/services/_index.ts",
+    "@usecases": "./src/usecases/_index.ts"
+  }
+}
