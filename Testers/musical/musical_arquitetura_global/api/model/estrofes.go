@@ -1,45 +1,34 @@
 package model
 
+import "github.com/reizzao/musical/api/entitys/harmoniafuncional"
+
 type Estrofe_A_A2 struct {
-	Denominanda           Denominanda_Estrofe_Options
-	Conceitos             Conceitos_Estrofe_Options
-	Andamento             Andamento_Melodico_Options
+	Denominanda Denominanda_Estrofe_Options
+	Conceitos   Conceitos_Estrofe_Options
+	Andamento   Andamento_Melodico_Options
+	Frases      Frases_3F
+}
+
+type Frases_3F struct {
 	Frase_Fato            PerguntaResposta
 	Frase_Consequencia    PerguntaResposta
 	Frase_Resultado_Fecha Frase_Resultado_Fecha
 }
 
 type PerguntaResposta struct {
-	Pergunta MusicalSilabas
-	Resposta MusicalSilabas
+	Pergunta string
+	Resposta string
+	Cadencia harmoniafuncional.CadenciaPerguntaResposta
 }
-
-type MusicalSilabas struct {
-	Silabas         string
-	Grau            []GrauTypeSilabas
-	FuncaoHarmonica FuncaoHarmonicaOptions
-}
-
-type GrauTypeSilabas = int
 
 type Frase_Resultado_Fecha struct {
-	Frase          string
-	Cadencia_Fecha Cadencia_Fecha_Options
+	Frase         string
+	CadenciaFecha harmoniafuncional.SensacaoCadenciaFecha_RequestOptions
 }
 
-type FuncaoHarmonicaOptions = string
-
-const (
-	Funcao_Tonica_Forte_1 FuncaoHarmonicaOptions = "Tonica_Forte_1"
-	Funcao_Tonica_Fraca_6 FuncaoHarmonicaOptions = "Tonica_Fraca_6"
-
-	Funcao_NaoTonica_SubDominante_Fraca_2 FuncaoHarmonicaOptions = "NaoTonica_SubDominante_Fraca_2"
-	Funcao_NaoTonica_SubDominante_Forte_4 FuncaoHarmonicaOptions = "NaoTonica_SubDominante_Forte_4"
-
-	Funcao_NaoTonica_Dominante_Fraca_3      FuncaoHarmonicaOptions = "NaoTonica_Dominante_SuperForte_7"
-	Funcao_NaoTonica_Dominante_Forte_5      FuncaoHarmonicaOptions = "NaoTonica_Dominante_Forte_5"
-	Funcao_NaoTonica_Dominante_SuperForte_7 FuncaoHarmonicaOptions = "NaoTonica_Dominante_SuperForte_7"
-)
+// type MusicalSilabas struct {
+// 	Silabas string
+// }
 
 type Denominanda_Estrofe_Options = string
 

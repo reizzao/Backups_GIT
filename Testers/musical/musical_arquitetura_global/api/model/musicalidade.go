@@ -11,11 +11,11 @@ Cobertura_NaoTonico: aplicaar: para preparar um reinicio posso_usar: {"subdividi
 
 */
 
-type Cadencia_Fecha_Options = string
+// type Cadencia_Fecha_Options = string
 
-const (
-	Fecha_251 Cadencia_Fecha_Options = "Fecha_251"
-	Fecha_31  Cadencia_Fecha_Options = "Fecha_31"
-	Fecha_51  Cadencia_Fecha_Options = "Fecha_51"
-	Fecha_451 Cadencia_Fecha_Options = "Fecha_451"
-)
+// const (
+// 	Fecha_251 Cadencia_Fecha_Options = "Fecha_251"
+// 	Fecha_31  Cadencia_Fecha_Options = "Fecha_31"
+// 	Fecha_51  Cadencia_Fecha_Options = "Fecha_51"
+// 	Fecha_451 Cadencia_Fecha_Options = "Fecha_451"
+// )
