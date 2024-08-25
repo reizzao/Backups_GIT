@@ -1,2 +1,0 @@
-
-verso: { abre:  "", fecha: "" }
