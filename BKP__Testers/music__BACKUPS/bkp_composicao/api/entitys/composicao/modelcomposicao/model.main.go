@@ -19,17 +19,5 @@ type RequestComposicao struct {
 	Frases            []PerguntaResposta
 }
 
-type PerguntaResposta struct {
-	FraseNumero     int
-	MetaFrase       c.MetaFraseOptions
-	TempoVerbal_Def c.TempoVerbal_Options
-	Personagem_Def  c.Personagem_Options
-	FormaFrase_1    FormaFraseProps
-	FormaFrase_2    FormaFraseProps
-}
 
-type FormaFraseProps struct {
-	FormaFrase_Tipo c.FormaFrase_TipoOption
 
-	Silabas string
-}
