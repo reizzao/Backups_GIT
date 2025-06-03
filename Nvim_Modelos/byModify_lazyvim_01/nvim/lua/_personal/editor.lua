@@ -1,5 +1,5 @@
 
-     -- SETTINGS --
+     -- API VIMRC --
 
      vim.cmd([[ syntax on ]])
      -- ajudar na syntaxe das linguagens
