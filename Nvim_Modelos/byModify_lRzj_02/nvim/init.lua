@@ -1,3 +1,5 @@
+-- Bom Rzj 2024
+
 require("plugins.plugins")
 require("configs.settings")
 require("configs.setUX")
