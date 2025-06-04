@@ -1,3 +1,5 @@
+-- Rz funcionando
+
 -- SETTINGS --
 
 vim.cmd([[ syntax on ]])
